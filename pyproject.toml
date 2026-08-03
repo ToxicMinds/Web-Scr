@@ -109,7 +109,7 @@ ignore_missing_imports = true
 minversion = "8.0"
 addopts = "-ra --strict-markers"
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["src", "."]
 markers = [
     "integration: tests that touch external systems (network/db/browser)",
     "playwright: tests that require a Playwright browser",
