@@ -76,6 +76,7 @@ select = [
 ignore = [
     "PLR0913",  # too many arguments (domain constructors legitimately need many)
     "PLR2004",  # magic value in comparisons inside tests
+    "RUF012",   # plugin catalogs are declarative class-level data, not shared mutable state
 ]
 
 [tool.ruff.lint.per-file-ignores]
