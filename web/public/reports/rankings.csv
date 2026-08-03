@@ -1,0 +1,15 @@
+retailer,slug,feasible,total_eur,shipping_confidence
+Amazon Poland,amazon_pl,true,126.28,determined
+MyProtein,myprotein,true,131.73,determined
+GymBeam,gymbeam,true,142.21,determined
+Bulk,bulk,true,148.19,determined
+Aktin,aktin,true,154.5,determined
+BodyWorld,bodyworld,true,156.2,determined
+The Protein Works,protein_works,true,158.77,determined
+Prozis,prozis,true,167.95,determined
+Amazon Germany,amazon_de,true,169.96,determined
+Sportnahrung Engel,sportnahrung_engel,true,179.8,determined
+Fitness Authority,fitness_authority,true,181.2,determined
+Scitec Nutrition,scitec,true,183.4,determined
+BioTechUSA,biotechusa,true,197.3,determined
+Nutrend,nutrend,true,198.1,determined

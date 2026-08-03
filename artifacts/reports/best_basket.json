@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-08-03T16:26:14.318148+00:00",
+  "destination_country": "SK",
+  "base_currency": "EUR",
+  "best_basket": {
+    "id": "a4f27cab-0a95-44a7-80a1-1c9c056af1fc",
+    "strategy": "single_retailer",
+    "currency": "EUR",
+    "sub_baskets": [
+      {
+        "retailer_slug": "amazon_pl",
+        "lines": [
+          {
+            "offer": {
+              "id": "71c2d50b-e3ac-418f-8c2f-5ece0b9af23a",
+              "retailer_slug": "amazon_pl",
+              "category": "whey_protein",
+              "title": "Olimp Whey Protein Complex 1800 g",
+              "brand": "Amazon Poland",
+              "url": "https://www.amazon.pl/olimp-whey-1800g",
+              "pack_content_g": "1800",
+              "price": {
+                "amount": "30.00",
+                "currency": "EUR"
+              },
+              "quantity_breaks": [],
+              "availability": "in_stock",
+              "protein_pct": "72",
+              "serving_size_g": "30",
+              "protein_per_serving_g": "22",
+              "flavours": [],
+              "creatine_form": null,
+              "ships_to": null,
+              "scraped_at": "2026-08-03T16:26:14.308380Z"
+            },
+            "quantity": 3,
+            "unit_price": {
+              "amount": "30.00",
+              "currency": "EUR"
+            },
+            "line_total": {
+              "amount": "90.00",
+              "currency": "EUR"
+            },
+            "content_g": "5400"
+          },
+          {
+            "offer": {
+              "id": "48493384-752e-4d35-97f8-4385cfcda217",
+              "retailer_slug": "amazon_pl",
+              "category": "creatine_monohydrate",
+              "title": "Olimp Creatine Monohydrate Powder 550 g",
+              "brand": "Amazon Poland",
+              "url": "https://www.amazon.pl/olimp-creatine-550g",
+              "pack_content_g": "550",
+              "price": {
+                "amount": "9.07",
+                "currency": "EUR"
+              },
+              "quantity_breaks": [],
+              "availability": "in_stock",
+              "protein_pct": null,
+              "serving_size_g": null,
+              "protein_per_serving_g": null,
+              "flavours": [],
+              "creatine_form": "standard",
+              "ships_to": null,
+              "scraped_at": "2026-08-03T16:26:14.308392Z"
+            },
+            "quantity": 4,
+            "unit_price": {
+              "amount": "9.07",
+              "currency": "EUR"
+            },
+            "line_total": {
+              "amount": "36.28",
+              "currency": "EUR"
+            },
+            "content_g": "2200"
+          }
+        ],
+        "product_subtotal": {
+          "amount": "126.28",
+          "currency": "EUR"
+        },
+        "coupon_code": null,
+        "coupon_discount": {
+          "amount": "0.00",
+          "currency": "EUR"
+        },
+        "shipping_cost": {
+          "amount": "0.00",
+          "currency": "EUR"
+        },
+        "shipping_confidence": "determined",
+        "total": {
+          "amount": "126.28",
+          "currency": "EUR"
+        }
+      }
+    ],
+    "total": {
+      "amount": "126.28",
+      "currency": "EUR"
+    },
+    "fulfilled_g": {
+      "whey_protein": "5400",
+      "creatine_monohydrate": "2200"
+    },
+    "shipping_confidence": "determined",
+    "created_at": "2026-08-03T16:26:14.309910Z"
+  },
+  "retailer_rankings": [
+    {
+      "retailer": "Amazon Poland",
+      "slug": "amazon_pl",
+      "feasible": true,
+      "total_eur": 126.28,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "MyProtein",
+      "slug": "myprotein",
+      "feasible": true,
+      "total_eur": 131.73,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "GymBeam",
+      "slug": "gymbeam",
+      "feasible": true,
+      "total_eur": 142.21,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Bulk",
+      "slug": "bulk",
+      "feasible": true,
+      "total_eur": 148.19,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Aktin",
+      "slug": "aktin",
+      "feasible": true,
+      "total_eur": 154.5,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "BodyWorld",
+      "slug": "bodyworld",
+      "feasible": true,
+      "total_eur": 156.2,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "The Protein Works",
+      "slug": "protein_works",
+      "feasible": true,
+      "total_eur": 158.77,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Prozis",
+      "slug": "prozis",
+      "feasible": true,
+      "total_eur": 167.95,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Amazon Germany",
+      "slug": "amazon_de",
+      "feasible": true,
+      "total_eur": 169.96,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Sportnahrung Engel",
+      "slug": "sportnahrung_engel",
+      "feasible": true,
+      "total_eur": 179.8,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Fitness Authority",
+      "slug": "fitness_authority",
+      "feasible": true,
+      "total_eur": 181.2,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Scitec Nutrition",
+      "slug": "scitec",
+      "feasible": true,
+      "total_eur": 183.4,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "BioTechUSA",
+      "slug": "biotechusa",
+      "feasible": true,
+      "total_eur": 197.3,
+      "shipping_confidence": "determined"
+    },
+    {
+      "retailer": "Nutrend",
+      "slug": "nutrend",
+      "feasible": true,
+      "total_eur": 198.1,
+      "shipping_confidence": "determined"
+    }
+  ]
+}
