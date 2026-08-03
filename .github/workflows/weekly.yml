@@ -1,0 +1,50 @@
+name: Weekly Deep Scan
+
+on:
+  schedule:
+    # 03:00 UTC every Sunday — full refresh of every retailer.
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  deep-scan:
+    name: Full retailer refresh
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      PLAYWRIGHT_BROWSERS_PATH: ${{ secrets.PLAYWRIGHT_BROWSERS_PATH }}
+      NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: ./.github/actions/setup
+
+      - name: Install Playwright browsers
+        run: uv run playwright install --with-deps chromium
+
+      - name: Scrape every registered retailer
+        run: uv run optimizer scrape --output artifacts/scrape
+
+      - name: Optimize and generate reports
+        run: uv run optimizer report --output artifacts/reports
+
+      - name: Publish results to Supabase
+        if: ${{ env.SUPABASE_URL != '' && env.SUPABASE_SERVICE_ROLE_KEY != '' }}
+        run: uv run python scripts/publish_report.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: deep-scan-${{ github.run_id }}
+          path: artifacts/
+          retention-days: 60

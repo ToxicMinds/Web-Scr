@@ -1,0 +1,69 @@
+name: Manual Dispatch
+
+on:
+  workflow_dispatch:
+    inputs:
+      retailer:
+        description: "Retailer slug to scrape (blank = all)"
+        required: false
+        default: ""
+      country:
+        description: "Destination country ISO2"
+        required: false
+        default: "SK"
+      category:
+        description: "Category key (blank = all configured)"
+        required: false
+        default: ""
+      force_refresh:
+        description: "Ignore caches and re-scrape everything"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: manual-${{ github.run_id }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    name: On-demand scrape & optimize
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      PLAYWRIGHT_BROWSERS_PATH: ${{ secrets.PLAYWRIGHT_BROWSERS_PATH }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: ./.github/actions/setup
+
+      - name: Install Playwright browsers
+        run: uv run playwright install --with-deps chromium
+
+      - name: Scrape
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.retailer }}" ] && ARGS="$ARGS --retailer ${{ inputs.retailer }}"
+          [ -n "${{ inputs.category }}" ] && ARGS="$ARGS --category ${{ inputs.category }}"
+          [ "${{ inputs.force_refresh }}" = "true" ] && ARGS="$ARGS --force"
+          uv run optimizer scrape $ARGS --output artifacts/scrape
+
+      - name: Optimize for destination
+        run: uv run optimizer report --destination "${{ inputs.country }}" --output artifacts/reports
+
+      - name: Publish results to Supabase
+        if: ${{ env.SUPABASE_URL != '' && env.SUPABASE_SERVICE_ROLE_KEY != '' }}
+        run: uv run python scripts/publish_report.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-${{ github.run_id }}
+          path: artifacts/
+          retention-days: 14

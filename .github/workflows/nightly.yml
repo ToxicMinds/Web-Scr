@@ -1,0 +1,72 @@
+name: Nightly Optimize
+
+on:
+  schedule:
+    # 02:30 UTC every day.
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    name: Scrape · Normalize · Optimize · Report · Publish
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      PLAYWRIGHT_BROWSERS_PATH: ${{ secrets.PLAYWRIGHT_BROWSERS_PATH }}
+      NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: ./.github/actions/setup
+
+      - name: Install Playwright browsers
+        run: uv run playwright install --with-deps chromium
+
+      - name: Run optimization and generate all reports
+        run: uv run optimizer report --output artifacts/reports
+
+      - name: Refresh dashboard snapshot
+        run: |
+          cp artifacts/reports/best_basket.json web/public/data.json
+          mkdir -p web/public/reports
+          cp artifacts/reports/* web/public/reports/
+
+      - name: Publish results to Supabase
+        if: ${{ env.SUPABASE_URL != '' && env.SUPABASE_SERVICE_ROLE_KEY != '' }}
+        run: uv run python scripts/publish_report.py
+
+      - name: Upload report artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-${{ github.run_id }}
+          path: artifacts/reports/
+          retention-days: 30
+
+      - name: Commit refreshed reports
+        run: |
+          git config user.name "ToxicMinds"
+          git config user.email "nikshanbhag@gmail.com"
+          git add artifacts/reports web/public/data.json web/public/reports
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "chore(reports): nightly refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Notify on failure
+        if: ${{ failure() && env.NOTIFICATION_WEBHOOK != '' }}
+        run: |
+          curl -s -X POST -H "Content-Type: application/json" \
+            -d "{\"text\":\"Nightly optimize failed: run ${{ github.run_id }}\"}" \
+            "$NOTIFICATION_WEBHOOK" || true

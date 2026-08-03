@@ -62,9 +62,18 @@ class OptimizationService:
         self._rates = rate_provider or default_rate_provider()
 
     async def gather_market_data(
-        self, categories: list[str], *, retailer_slugs: list[str] | None = None
+        self,
+        categories: list[str],
+        *,
+        retailer_slugs: list[str] | None = None,
+        force: bool = False,
     ) -> MarketData:
-        """Scrape ``categories`` from selected (or all) retailer plugins."""
+        """Scrape ``categories`` from selected (or all) retailer plugins.
+
+        ``force`` requests a full re-scrape ignoring any cached offers. The
+        current plugins always fetch live, so it is accepted for interface
+        stability and surfaced in logs for the future caching layer.
+        """
         plugins = self._registry.create_all(retailer_slugs)
         market = MarketData()
 
@@ -97,6 +106,7 @@ class OptimizationService:
             retailers=len(market.retailers),
             offers=len(market.offers),
             categories=categories,
+            force=force,
         )
         return market
 

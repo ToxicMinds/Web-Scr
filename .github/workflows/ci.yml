@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Lint · Types · Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: ./.github/actions/setup
+
+      - name: Ruff lint
+        run: uv run ruff check src tests
+
+      - name: Ruff format check
+        run: uv run ruff format --check src tests
+
+      - name: Mypy type check
+        run: uv run mypy src
+
+      - name: Pytest
+        run: uv run pytest -q

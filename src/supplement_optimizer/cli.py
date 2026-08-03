@@ -8,6 +8,7 @@ implementations (Dependency Injection happens here, not in the core).
 from __future__ import annotations
 
 import asyncio
+import json
 from decimal import Decimal
 from pathlib import Path
 from typing import Annotated
@@ -148,6 +149,12 @@ def scrape(
     retailer: Annotated[
         list[str] | None, typer.Option(help="Restrict to these retailer slugs")
     ] = None,
+    output: Annotated[
+        Path | None, typer.Option(help="Directory to write scraped offers + summary JSON")
+    ] = None,
+    force: Annotated[
+        bool, typer.Option(help="Force a full re-scrape, ignoring any cached offers")
+    ] = False,
 ) -> None:
     """Scrape offers and print a per-retailer summary (no optimization)."""
     categories = category or [
@@ -155,11 +162,33 @@ def scrape(
         ProductCategory.CREATINE_MONOHYDRATE.value,
     ]
     service = OptimizationService()
-    market = asyncio.run(service.gather_market_data(categories, retailer_slugs=retailer))
+    market = asyncio.run(
+        service.gather_market_data(categories, retailer_slugs=retailer, force=force)
+    )
     typer.echo(f"Scraped {len(market.offers)} offers from {len(market.retailers)} retailers")
     for res in market.scrape_results:
         typer.echo(
             f"  {res.retailer_slug:22s} {res.category:24s} {res.accepted_count}/{res.raw_count}"
+        )
+    if output is not None:
+        output.mkdir(parents=True, exist_ok=True)
+        summary = {
+            "categories": categories,
+            "retailers": sorted(market.retailers),
+            "offer_count": len(market.offers),
+            "results": [
+                {
+                    "retailer_slug": r.retailer_slug,
+                    "category": r.category,
+                    "accepted": r.accepted_count,
+                    "raw": r.raw_count,
+                }
+                for r in market.scrape_results
+            ],
+        }
+        (output / "scrape_summary.json").write_text(json.dumps(summary, indent=2))
+        typer.secho(
+            f"Wrote scrape summary to {output / 'scrape_summary.json'}", fg=typer.colors.GREEN
         )
 
 
