@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs / uv
+.venv/
+.python-version.local
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local secrets / env
+.env
+.env.*
+!.env.example
+
+# Generated artifacts (reports are uploaded/committed by CI into artifacts/reports)
+data/*.duckdb
+data/*.parquet
+artifacts/tmp/
+
+# OS
+.DS_Store
+
+# Playwright
+/test-results/
+/playwright-report/
