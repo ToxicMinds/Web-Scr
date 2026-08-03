@@ -46,6 +46,7 @@ class GymBeamPlugin(MagentoGraphQLScraper):
 
     GRAPHQL_URL = "https://gymbeam.sk/graphql"
     STORE_HEADER = "gymbeamsk"
+    VARIANTS_FIELD = "configurable_variants"
     BRAND = "GymBeam"
     SEARCH = {
         WHEY: ("true whey", "100% whey", "whey protein"),

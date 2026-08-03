@@ -38,36 +38,37 @@ _logger = get_logger(__name__)
 
 ClientFactory = Callable[[], httpx.AsyncClient]
 
-#: Parametrised product query. ``configurable_variants`` yields one row per
-#: purchasable pack size, each a concrete ``SimpleProduct`` (so ``weight`` and
-#: ``price_tiers`` are directly selectable).
-_PRODUCTS_QUERY = """
-query Products($search: String!, $pageSize: Int!) {
-  products(search: $search, pageSize: $pageSize) {
-    items {
+#: Parametrised product query. ``{variants}`` is the retailer's variant field
+#: (standard Magento ``variants``; GymBeam exposes ``configurable_variants``).
+#: Each variant is a concrete ``SimpleProduct`` (so ``weight`` and ``price_tiers``
+#: are directly selectable).
+_PRODUCTS_QUERY_TEMPLATE = """
+query Products($search: String!, $pageSize: Int!) {{
+  products(search: $search, pageSize: $pageSize) {{
+    items {{
       __typename
       name
       sku
       url_key
       url_suffix
       stock_status
-      price_range { minimum_price { final_price { value currency } } }
-      ... on ConfigurableProduct {
-        configurable_variants {
-          attributes { label }
-          product {
+      price_range {{ minimum_price {{ final_price {{ value currency }} }} }}
+      ... on ConfigurableProduct {{
+        {variants} {{
+          attributes {{ label }}
+          product {{
             sku
             name
             weight
             stock_status
-            price_range { minimum_price { final_price { value currency } } }
-            price_tiers { quantity final_price { value } }
-          }
-        }
-      }
-    }
-  }
-}
+            price_range {{ minimum_price {{ final_price {{ value currency }} }} }}
+            price_tiers {{ quantity final_price {{ value }} }}
+          }}
+        }}
+      }}
+    }}
+  }}
+}}
 """.strip()
 
 _WEIGHT_RE = re.compile(r"(\d+(?:[.,]\d+)?)\s*(kg|g)\b", re.IGNORECASE)
@@ -106,10 +107,19 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
 
     GRAPHQL_URL: ClassVar[str]
     STORE_HEADER: ClassVar[str | None] = None
+    #: Magento variant field name. Standard Magento uses ``variants``; GymBeam's
+    #: customised schema exposes ``configurable_variants``.
+    VARIANTS_FIELD: ClassVar[str] = "variants"
     #: Category key -> search phrases used to discover candidate products.
     SEARCH: ClassVar[dict[str, tuple[str, ...]]] = {}
     PAGE_SIZE: ClassVar[int] = 24
     BRAND: ClassVar[str | None] = None
+    #: Skip variants below this net weight -- these are free samples / testers,
+    #: not a purchasable pack that meaningfully contributes to a basket.
+    MIN_PACK_G: ClassVar[int] = 100
+
+    def _query(self) -> str:
+        return _PRODUCTS_QUERY_TEMPLATE.format(variants=self.VARIANTS_FIELD)
 
     def __init__(
         self,
@@ -161,7 +171,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
         response = await client.post(
             self.GRAPHQL_URL,
             json={
-                "query": _PRODUCTS_QUERY,
+                "query": self._query(),
                 "variables": {"search": term, "pageSize": self.PAGE_SIZE},
             },
         )
@@ -212,7 +222,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
 
     def _parse_item(self, category: str, item: dict[str, Any]) -> list[Offer]:
         url = self._product_url(item.get("url_key"), item.get("url_suffix"))
-        variants = item.get("configurable_variants") or []
+        variants = item.get(self.VARIANTS_FIELD) or item.get("configurable_variants") or []
         if not variants:
             offer = self._simple_offer(category, item, url)
             return [offer] if offer else []
@@ -227,7 +237,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
         title = item.get("name") or ""
         grams = grams_from_text(title)
         price = _final_price(item)
-        if grams is None or price is None:
+        if grams is None or price is None or grams < self.MIN_PACK_G:
             return None
         amount, currency = price
         return Offer(
@@ -248,7 +258,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
         labels = [a.get("label", "") for a in (variant.get("attributes") or [])]
         grams = _grams_from_labels(labels) or _weight_grams(product.get("weight"))
         price = _final_price(product) or _final_price(item)
-        if grams is None or price is None:
+        if grams is None or price is None or grams < self.MIN_PACK_G:
             return None
         amount, currency = price
         flavour = _flavour_from_labels(labels, grams)
