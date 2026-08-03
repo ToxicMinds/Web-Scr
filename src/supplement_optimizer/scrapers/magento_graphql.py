@@ -225,6 +225,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
         Search indexes can return stale products whose storefront page 404s
         (observed on GymBeam for delisted third-party SKUs). Validating links
         before they can enter a basket guarantees every published URL resolves.
+        See ADR-0008.
         """
         urls = {offer.url for offer in offers}
         semaphore = asyncio.Semaphore(self._settings.scraper_validate_concurrency)
