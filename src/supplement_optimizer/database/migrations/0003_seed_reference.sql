@@ -32,10 +32,15 @@ on conflict (iso2) do update set name = excluded.name, default_currency = exclud
 
 insert into product_categories (key, name, parent_id, filter_slug) values
   ('supplements', 'Supplements', null, null),
+  ('equipment', 'Gym Equipment & Apparel', null, null),
   ('whey_protein', 'Whey Protein',
      (select id from product_categories where key = 'supplements'), 'whey_protein'),
   ('creatine_monohydrate', 'Creatine Monohydrate',
-     (select id from product_categories where key = 'supplements'), 'creatine_monohydrate')
+     (select id from product_categories where key = 'supplements'), 'creatine_monohydrate'),
+  ('omega_3', 'Omega-3 Fish Oil',
+     (select id from product_categories where key = 'supplements'), 'omega_3'),
+  ('gym_shoes', 'Gym Shoes',
+     (select id from product_categories where key = 'equipment'), 'gym_shoes')
 on conflict (key) do update set name = excluded.name, filter_slug = excluded.filter_slug;
 
 -- Default EUR->quote rates (1 EUR = rate quote), mirroring DEFAULT_EUR_RATES.

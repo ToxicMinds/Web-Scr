@@ -50,6 +50,15 @@ _CONFIDENCE_ORDER = {
 }
 
 
+def _matches_attributes(offer: Offer, constraints: dict[str, str]) -> bool:
+    """Whether ``offer`` satisfies every attribute constraint (case-insensitive)."""
+    for key, value in constraints.items():
+        actual = offer.attributes.get(key)
+        if actual is None or actual.strip().lower() != value.strip().lower():
+            return False
+    return True
+
+
 @dataclass(frozen=True)
 class _CouponOutcome:
     """The effect of applying (or not) a coupon at one retailer."""
@@ -101,6 +110,12 @@ class OptimizationEngine:
                 bucket = priced.get((slug, req.category))
                 if not bucket:
                     continue
+                # Discrete-item requirements (Tier 3) constrain on attributes
+                # such as size/colour; divisible goods have no constraints.
+                if req.attributes:
+                    bucket = [o for o in bucket if _matches_attributes(o, req.attributes)]
+                    if not bucket:
+                        continue
                 result = cheapest_packing(bucket, req.target_g, req.max_g, base)
                 if result is not None:
                     packings[slug, req.category] = result

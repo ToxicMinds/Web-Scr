@@ -50,6 +50,7 @@ class OfferSpec:
     protein_per_serving_g: str | None = None
     flavours: tuple[str, ...] = ()
     creatine_form: CreatineForm | None = None
+    attributes: dict[str, str] = field(default_factory=dict)
     quantity_breaks: tuple[tuple[int, str], ...] = ()
 
 
@@ -185,4 +186,5 @@ class FixtureScraperPlugin(ScraperPlugin):
             ),
             flavours=spec.flavours,
             creatine_form=spec.creatine_form,
+            attributes=dict(spec.attributes),
         )

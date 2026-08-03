@@ -35,6 +35,10 @@ class ProductCategory(StrEnum):
 
     WHEY_PROTEIN = "whey_protein"
     CREATINE_MONOHYDRATE = "creatine_monohydrate"
+    # Tier 2 example: another divisible supplement (measured in grams of oil).
+    OMEGA_3 = "omega_3"
+    # Tier 3 example: a discrete, sized item (measured in units/pairs).
+    GYM_SHOES = "gym_shoes"
 
 
 class Availability(StrEnum):

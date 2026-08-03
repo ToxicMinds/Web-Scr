@@ -140,6 +140,11 @@ class Offer(BaseModel):
     # --- Creatine-specific attributes ---
     creatine_form: CreatineForm | None = None
 
+    # --- Generic attribute bag (Tier 3+): size, colour, gender, ... ---
+    # Empty for weight-based supplements; populated for discrete items such as
+    # shoes or apparel so requirements can constrain on them.
+    attributes: dict[str, str] = Field(default_factory=dict)
+
     # Optional per-offer shipping override (else the retailer rule applies).
     ships_to: frozenset[str] | None = None
     scraped_at: datetime = Field(default_factory=_now)
@@ -161,18 +166,32 @@ class Offer(BaseModel):
 
 
 class Requirement(BaseModel):
-    """A single line of demand in a basket, e.g. 'at least 5000 g of whey'."""
+    """A single line of demand in a basket.
+
+    Two shapes are supported without any change to the engine:
+
+    * **Divisible** (default), e.g. "at least 5000 g of whey" -- ``unit='g'``
+      and the target may be met by any package combination up to
+      ``target * (1 + tolerance)``.
+    * **Discrete items** (Tier 3), e.g. "1 pair of gym shoes, size 43, black" --
+      ``unit='unit'``, ``tolerance=0`` and ``attributes`` constrains which
+      offers qualify (matched against :attr:`Offer.attributes`).
+    """
 
     model_config = ConfigDict(frozen=True)
 
     category: str
-    target_g: Decimal = Field(..., gt=0)
+    target_g: Decimal = Field(..., gt=0, description="Target amount in ``unit`` toward this line")
     # Allowed overshoot above target when packing (e.g. 0.2 => up to +20%).
     tolerance: Decimal = Field(default=Decimal("0.25"), ge=0)
+    #: Label for the target quantity ('g' for divisible goods, 'unit' for items).
+    unit: str = "g"
+    #: Attribute constraints an offer must satisfy (e.g. {'size': '43', 'colour': 'black'}).
+    attributes: dict[str, str] = Field(default_factory=dict)
 
     @property
     def max_g(self) -> Decimal:
-        """Maximum grams the optimizer may buy for this requirement."""
+        """Maximum amount (in ``unit``) the optimizer may buy for this line."""
         return self.target_g * (Decimal("1") + self.tolerance)
 
 
