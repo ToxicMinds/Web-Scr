@@ -56,7 +56,7 @@ class ScitecPlugin(FixtureScraperPlugin):
         ),
         CREATINE: (
             OfferSpec(
-                "Creatine 100% Pure 1000 g",
+                "Creatine Monohydrate 100% Pure 1000 g",
                 1000,
                 "26.90",
                 "/creatine-1000g",
