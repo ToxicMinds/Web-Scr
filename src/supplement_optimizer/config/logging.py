@@ -9,10 +9,28 @@ from __future__ import annotations
 
 import logging
 import sys
+from typing import TextIO
 
 import structlog
 
 from supplement_optimizer.config.settings import Settings, get_settings
+
+
+class _LiveStderr:
+    """Stream proxy that always forwards to the *current* ``sys.stderr``.
+
+    ``structlog.PrintLoggerFactory`` binds to a concrete stream object at
+    configuration time. Under test runners (e.g. Typer's ``CliRunner``) the
+    real ``sys.stderr`` is temporarily swapped for a capture buffer that is
+    later closed, which would otherwise leave a cached logger writing to a
+    dead stream. Forwarding lazily keeps logging robust across stream swaps.
+    """
+
+    def write(self, data: str) -> int:
+        return sys.stderr.write(data)
+
+    def flush(self) -> None:
+        sys.stderr.flush()
 
 
 def configure_logging(settings: Settings | None = None) -> None:
@@ -20,7 +38,7 @@ def configure_logging(settings: Settings | None = None) -> None:
     settings = settings or get_settings()
     level = getattr(logging, settings.log_level.upper(), logging.INFO)
 
-    logging.basicConfig(format="%(message)s", stream=sys.stdout, level=level)
+    logging.basicConfig(format="%(message)s", stream=sys.stderr, level=level)
 
     shared: list[structlog.types.Processor] = [
         structlog.contextvars.merge_contextvars,
@@ -34,11 +52,12 @@ def configure_logging(settings: Settings | None = None) -> None:
         else structlog.dev.ConsoleRenderer()
     )
 
+    stream: TextIO = _LiveStderr()  # type: ignore[assignment]
     structlog.configure(
         processors=[*shared, renderer],
         wrapper_class=structlog.make_filtering_bound_logger(level),
-        logger_factory=structlog.PrintLoggerFactory(),
-        cache_logger_on_first_use=True,
+        logger_factory=structlog.PrintLoggerFactory(file=stream),
+        cache_logger_on_first_use=False,
     )
 
 
