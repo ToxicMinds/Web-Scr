@@ -69,3 +69,12 @@ class PluginRegistry:
         self.discover()
         chosen = list(slugs) if slugs is not None else sorted(_REGISTRY)
         return [self.create(slug) for slug in chosen]
+
+    def live_slugs(self) -> list[str]:
+        """Return slugs of plugins that have a real live-scraping implementation.
+
+        Used by reporting so a fixture/seed retailer is never published as live,
+        verified market data (see ``FixtureScraperPlugin.LIVE``).
+        """
+        self.discover()
+        return sorted(slug for slug, cls in _REGISTRY.items() if getattr(cls, "LIVE", False))

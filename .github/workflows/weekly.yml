@@ -23,6 +23,7 @@ jobs:
       SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
       PLAYWRIGHT_BROWSERS_PATH: ${{ secrets.PLAYWRIGHT_BROWSERS_PATH }}
       NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+      SCRAPER_LIVE: "true"
     steps:
       - uses: actions/checkout@v4
 
@@ -36,7 +37,7 @@ jobs:
         run: uv run optimizer scrape --output artifacts/scrape
 
       - name: Optimize and generate reports
-        run: uv run optimizer report --output artifacts/reports
+        run: uv run optimizer report --output artifacts/reports --live-only
 
       - name: Publish results to Supabase
         if: ${{ env.SUPABASE_URL != '' && env.SUPABASE_SERVICE_ROLE_KEY != '' }}

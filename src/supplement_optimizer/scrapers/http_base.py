@@ -16,6 +16,7 @@ from __future__ import annotations
 import os
 from abc import abstractmethod
 from collections.abc import Callable
+from typing import ClassVar
 
 import httpx
 from bs4 import BeautifulSoup
@@ -49,6 +50,8 @@ class HttpScraperPlugin(FixtureScraperPlugin):
     the deterministic fixture catalog is used, so CI never depends on a third
     party being reachable.
     """
+
+    LIVE: ClassVar[bool] = True
 
     def __init__(
         self,

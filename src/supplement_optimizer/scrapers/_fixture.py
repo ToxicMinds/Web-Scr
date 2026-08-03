@@ -97,6 +97,10 @@ class FixtureScraperPlugin(ScraperPlugin):
     SHIPPING: ClassVar[tuple[ShippingSpec, ...]] = ()
     COUPONS: ClassVar[tuple[CouponSpec, ...]] = ()
     CATALOG: ClassVar[dict[str, tuple[OfferSpec, ...]]] = {}
+    #: Whether this plugin has a real live-scraping implementation (a live base
+    #: sets this ``True``). Reporting uses it so a fixture/seed retailer is never
+    #: presented as live, verified market data. Plain fixture plugins are seed.
+    LIVE: ClassVar[bool] = False
 
     # ScraperPlugin.slug is bound from the retailer spec in __init_subclass__.
     def __init_subclass__(cls, **kwargs: object) -> None:

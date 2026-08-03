@@ -1,22 +1,27 @@
 retailer,category,title,brand,currency,pack_content_g,price,price_per_kg,price_per_reference_serving,price_per_100g_protein,protein_grams_per_currency,cost_per_serving,cost_per_month,cost_per_year,availability,url
-bulk,creatine_monohydrate,Creatine Monohydrate 1 kg,Bulk,GBP,1000.0,17.99,17.99,0.44975,,,,,,in_stock,https://www.bulk.com/creatine-1kg
-protein_works,creatine_monohydrate,Creatine Monohydrate 1 kg,The Protein Works,GBP,1000.0,18.99,18.99,0.47475,,,,,,in_stock,https://www.theproteinworks.com/creatine-1kg
-myprotein,creatine_monohydrate,Creatine Monohydrate 1 kg,MyProtein,GBP,1000.0,19.99,19.99,0.49975,,,,,,in_stock,https://www.myprotein.com/creatine-1kg
-fitness_authority,creatine_monohydrate,FA Creatine Monohydrate 1000 g,Fitness Authority,EUR,1000.0,21.9,21.9,0.5475,,,,,,in_stock,https://www.faonline.eu/creatine-1000g
-aktin,creatine_monohydrate,Aktin Creatine Monohydrate 1000 g,Aktin,EUR,1000.0,22.9,22.9,0.5725,,,,,,in_stock,https://aktin.sk/creatine-1000g
-bodyworld,creatine_monohydrate,BodyWorld Creatine Monohydrate 1000 g,BodyWorld,EUR,1000.0,23.9,23.9,0.5975,,,,,,in_stock,https://www.bodyworld.sk/creatine-1000g
-myprotein,creatine_monohydrate,Creatine Monohydrate 500 g,MyProtein,GBP,500.0,11.99,23.98,0.5995,,,,,,in_stock,https://www.myprotein.com/creatine-500g
-prozis,creatine_monohydrate,Creatine Monohydrate 1000 g,Prozis,EUR,1000.0,23.99,23.99,0.59975,,,,,,in_stock,https://www.prozis.com/creatine-1000g
-gymbeam,creatine_monohydrate,GymBeam Creatine Monohydrate 1000 g,GymBeam,EUR,1000.0,24.9,24.9,0.6225,,,,,,in_stock,https://gymbeam.sk/creatine-1000g
-amazon_de,creatine_monohydrate,ESN Creatine Monohydrate 1000 g,Amazon Germany,EUR,1000.0,24.99,24.99,0.62475,,,,,,in_stock,https://www.amazon.de/esn-creatine-1000g
-scitec,creatine_monohydrate,Creatine Monohydrate 100% Pure 1000 g,Scitec Nutrition,EUR,1000.0,26.9,26.9,0.6725,,,,,,in_stock,https://scitecnutrition.com/creatine-1000g
-bodyworld,creatine_monohydrate,BodyWorld Creatine Monohydrate 500 g,BodyWorld,EUR,500.0,13.5,27.0,0.675,,,,,,in_stock,https://www.bodyworld.sk/creatine-500g
-aktin,creatine_monohydrate,Aktin Creatine Monohydrate 500 g,Aktin,EUR,500.0,13.9,27.8,0.695,,,,,,in_stock,https://aktin.sk/creatine-500g
-biotechusa,creatine_monohydrate,100% Creatine Monohydrate 1000 g,BioTechUSA,EUR,1000.0,28.9,28.9,0.7225,,,,,,in_stock,https://shop.biotechusa.com/creatine-1000g
-amazon_de,creatine_monohydrate,ESN Creatine Monohydrate 500 g,Amazon Germany,EUR,500.0,14.49,28.98,0.7245,,,,,,in_stock,https://www.amazon.de/esn-creatine-500g
-gymbeam,creatine_monohydrate,GymBeam Creatine Monohydrate 500 g,GymBeam,EUR,500.0,14.9,29.8,0.745,,,,,,in_stock,https://gymbeam.sk/creatine-500g
-sportnahrung_engel,creatine_monohydrate,Engel Creatine Monohydrate 500 g,Sportnahrung Engel,EUR,500.0,15.5,31.0,0.775,,,,,,in_stock,https://www.sportnahrung-engel.de/creatine-500g
-nutrend,creatine_monohydrate,Nutrend Creatine Monohydrate 500 g,Nutrend,EUR,500.0,15.9,31.8,0.795,,,,,,in_stock,https://www.nutrend.cz/creatine-500g
-prozis,creatine_monohydrate,Creatine Monohydrate 300 g,Prozis,EUR,300.0,9.99,33.3,0.8325,,,,,,in_stock,https://www.prozis.com/creatine-300g
-biotechusa,creatine_monohydrate,100% Creatine Monohydrate 500 g,BioTechUSA,EUR,500.0,16.9,33.8,0.845,,,,,,in_stock,https://shop.biotechusa.com/creatine-500g
-amazon_pl,creatine_monohydrate,Olimp Creatine Monohydrate Powder 550 g,Amazon Poland,PLN,550.0,39.0,70.9090909090909,1.7727272727272727,,,,,,in_stock,https://www.amazon.pl/olimp-creatine-550g
+gymbeam,creatine_monohydrate,100% Mikronizovaný kreatín monohydrát 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,33.95,22.633333333333333,0.5658333333333333,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100% Mikronizovaný kreatín monohydrát 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100% Mikronizovaný kreatín monohydrát 750 g - zelené jablko - 01,GymBeam,EUR,750.0,18.5,24.666666666666668,0.6166666666666667,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 1kg,Bulk,GBP,1000.0,24.99,24.99,0.62475,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
+gymbeam,creatine_monohydrate,100% Mikronizovaný kreatín monohydrát 500 g - zelené jablko - 01,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 500g,Bulk,GBP,500.0,12.99,25.98,0.6495,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 250g,Bulk,GBP,250.0,7.49,29.96,0.749,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+gymbeam,creatine_monohydrate,100% Mikronizovaný kreatín monohydrát 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,15.29,30.58,0.7645,,,,,,in_stock,https://aktin.sk/vilgain-kreatin
+gymbeam,creatine_monohydrate,Kreatín Pure monohydrát - Bodylab 400 g,GymBeam,EUR,400.0,12.5,31.25,0.78125,,,,,,out_of_stock,https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html
+gymbeam,creatine_monohydrate,Kreatín Monohydrát  - Bodylab24 500 g,GymBeam,EUR,500.0,16.95,33.9,0.8475,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-bodylab24.html
+gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000.0,33.95,33.95,0.84875,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
+aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,17.28,34.56,0.864,,,,,,in_stock,https://aktin.sk/vilgain-kreatin/mango-a-pomaranc-500-g-45659
+gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
+aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,300.0,11.49,38.3,0.9575,,,,,,in_stock,https://aktin.sk/vilgain-kreatin/bez-prichute-300-g-46888
+gymbeam,creatine_monohydrate,Kreatín monohydrát - Redcon1 300 g,GymBeam,EUR,300.0,13.95,46.5,1.1625,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-redcon1.html
+gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,14.95,49.833333333333336,1.2458333333333333,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 100g,Bulk,GBP,100.0,4.99,49.9,1.2475,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+gymbeam,creatine_monohydrate,Kreatín monohydrát Creapure® - Nutrend 500 g - bez príchute,GymBeam,EUR,500.0,29.95,59.9,1.4975,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-creapure-nutrend.html
+bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Mixed Berry 1kg,Bulk,GBP,1000.0,74.99,74.99,1.87475,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
+aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,500.0,39.99,79.98,1.9995,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r
+bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 500g,Bulk,GBP,500.0,39.99,79.98,1.9995,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
+aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,300.0,27.99,93.3,2.3325,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-300-g-35577
+bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 100g,Bulk,GBP,100.0,9.99,99.9,2.4975,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
+aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,100.0,14.99,149.9,3.7475,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-100-g-20-x-5-g-46409

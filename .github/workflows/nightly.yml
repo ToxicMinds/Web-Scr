@@ -23,6 +23,8 @@ jobs:
       SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
       PLAYWRIGHT_BROWSERS_PATH: ${{ secrets.PLAYWRIGHT_BROWSERS_PATH }}
       NOTIFICATION_WEBHOOK: ${{ secrets.NOTIFICATION_WEBHOOK }}
+      # Hit real retailer sites (CI has a clean TLS chain, so no CA override).
+      SCRAPER_LIVE: "true"
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +35,7 @@ jobs:
         run: uv run playwright install --with-deps chromium
 
       - name: Run optimization and generate all reports
-        run: uv run optimizer report --output artifacts/reports
+        run: uv run optimizer report --output artifacts/reports --live-only
 
       - name: Refresh dashboard snapshot
         run: |

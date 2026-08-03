@@ -49,6 +49,12 @@ class Settings(BaseSettings):
     #: Optional CA bundle path for environments behind a TLS-intercepting proxy.
     #: Falls back to the ``SSL_CERT_FILE`` env var, then to normal verification.
     scraper_ca_bundle: str | None = None
+    #: When True (default), the live path validates each candidate product URL
+    #: and drops any that do not resolve (<400), so a stale search index can
+    #: never publish a dead link. Disable only for speed in trusted contexts.
+    scraper_validate_urls: bool = True
+    #: Max concurrent URL-liveness checks during validation.
+    scraper_validate_concurrency: int = 10
 
     # --- Notifications ---
     notification_webhook: SecretStr | None = None

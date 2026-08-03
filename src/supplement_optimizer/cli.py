@@ -126,15 +126,23 @@ def report(
     output: Annotated[Path, typer.Option(help="Report output directory")] = Path(
         "artifacts/reports"
     ),
+    live_only: Annotated[
+        bool,
+        typer.Option(
+            help="Restrict to retailers with a real live-scraping implementation "
+            "(never publish fixture/seed retailers as market data)."
+        ),
+    ] = False,
 ) -> None:
     """Run the optimizer and write all report formats to ``output``."""
     settings = get_settings()
     dest = destination or settings.optimizer_destination_country
     request = _build_request(whey_kg, creatine_kg, dest, settings.optimizer_base_currency)
 
+    retailer_slugs = PluginRegistry().live_slugs() if live_only else None
     rates = default_rate_provider()
     service = OptimizationService(rate_provider=rates)
-    result = asyncio.run(service.run(request))
+    result = asyncio.run(service.run(request, retailer_slugs=retailer_slugs))
     data = build_report_data(result, rates)
     paths = ReportWriter(output).write_all(data)
 

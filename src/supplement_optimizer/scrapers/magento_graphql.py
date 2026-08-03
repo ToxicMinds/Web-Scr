@@ -13,6 +13,7 @@ paths stay fully covered without depending on third-party availability.
 
 from __future__ import annotations
 
+import asyncio
 import os
 import re
 from collections.abc import Callable
@@ -107,6 +108,7 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
 
     GRAPHQL_URL: ClassVar[str]
     STORE_HEADER: ClassVar[str | None] = None
+    LIVE: ClassVar[bool] = True
     #: Magento variant field name. Standard Magento uses ``variants``; GymBeam's
     #: customised schema exposes ``configurable_variants``.
     VARIANTS_FIELD: ClassVar[str] = "variants"
@@ -212,7 +214,35 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
                         existing = offers.get(key)
                         if existing is None or offer.price.amount < existing.price.amount:
                             offers[key] = offer
-        return list(offers.values())
+            resolved = list(offers.values())
+            if self._settings.scraper_validate_urls:
+                resolved = await self._drop_dead_urls(client, resolved)
+        return resolved
+
+    async def _drop_dead_urls(self, client: httpx.AsyncClient, offers: list[Offer]) -> list[Offer]:
+        """Keep only offers whose product page actually resolves (<400).
+
+        Search indexes can return stale products whose storefront page 404s
+        (observed on GymBeam for delisted third-party SKUs). Validating links
+        before they can enter a basket guarantees every published URL resolves.
+        """
+        urls = {offer.url for offer in offers}
+        semaphore = asyncio.Semaphore(self._settings.scraper_validate_concurrency)
+
+        async def check(url: str) -> tuple[str, bool]:
+            async with semaphore:
+                try:
+                    response = await client.get(url)
+                except httpx.HTTPError:
+                    return url, False
+                return url, response.status_code < 400
+
+        results = await asyncio.gather(*(check(url) for url in urls))
+        alive = {url for url, ok in results if ok}
+        dropped = len(urls) - len(alive)
+        if dropped:
+            _logger.info("dropped_dead_urls", retailer=self.slug, dropped=dropped, total=len(urls))
+        return [offer for offer in offers if offer.url in alive]
 
     # -- Parsing --------------------------------------------------------------
 
@@ -220,8 +250,17 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
         base = self.RETAILER.base_url.rstrip("/")
         return f"{base}/{url_key or ''}{url_suffix or ''}"
 
+    def _item_url(self, item: dict[str, Any]) -> str:
+        """Resolve a product's canonical page URL.
+
+        Default Magento convention is ``{base}/{url_key}{url_suffix}``. Retailers
+        with a different routing scheme (e.g. Bulk's ``/products/{slug}/{sku}``)
+        override this hook.
+        """
+        return self._product_url(item.get("url_key"), item.get("url_suffix"))
+
     def _parse_item(self, category: str, item: dict[str, Any]) -> list[Offer]:
-        url = self._product_url(item.get("url_key"), item.get("url_suffix"))
+        url = self._item_url(item)
         variants = item.get(self.VARIANTS_FIELD) or item.get("configurable_variants") or []
         if not variants:
             offer = self._simple_offer(category, item, url)

@@ -7,6 +7,8 @@ is used for deterministic tests/CI.
 
 from __future__ import annotations
 
+from typing import Any
+
 from supplement_optimizer.domain.enums import CreatineForm, Currency, ProductCategory
 from supplement_optimizer.plugins.registry import register
 from supplement_optimizer.scrapers._fixture import (
@@ -28,7 +30,7 @@ class BulkPlugin(MagentoGraphQLScraper):
     RETAILER = RetailerSpec(
         slug="bulk",
         name="Bulk",
-        base_url="https://www.bulk.com/uk",
+        base_url="https://www.bulk.com",
         home_country="GB",
         currency=Currency.GBP,
         ships_to=EU_SHIPS,
@@ -45,6 +47,17 @@ class BulkPlugin(MagentoGraphQLScraper):
         WHEY: ("pure whey protein", "whey protein"),
         CREATINE: ("creatine monohydrate",),
     }
+
+    def _item_url(self, item: dict[str, Any]) -> str:
+        """Bulk routes products at ``/uk/products/{url_key}/{sku}`` (lowercased).
+
+        The configurable (parent) SKU identifies the product page; variants are
+        selected on-page, so we link to the parent product page.
+        """
+        url_key = item.get("url_key") or ""
+        sku = str(item.get("sku") or "").lower()
+        base = self.RETAILER.base_url.rstrip("/")
+        return f"{base}/uk/products/{url_key}/{sku}"
 
     # Deterministic offline seed catalog (used when scraper_live is False).
     CATALOG = {
