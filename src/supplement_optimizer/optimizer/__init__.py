@@ -9,9 +9,15 @@ from supplement_optimizer.optimizer.models import (
     Solution,
 )
 from supplement_optimizer.optimizer.packing import PackingResult, cheapest_packing
-from supplement_optimizer.optimizer.rates import RateProvider, StaticRateProvider
+from supplement_optimizer.optimizer.rates import (
+    DEFAULT_EUR_RATES,
+    RateProvider,
+    StaticRateProvider,
+    default_rate_provider,
+)
 
 __all__ = [
+    "DEFAULT_EUR_RATES",
     "BasketLine",
     "OptimizationEngine",
     "PackingResult",
@@ -20,4 +26,5 @@ __all__ = [
     "Solution",
     "StaticRateProvider",
     "cheapest_packing",
+    "default_rate_provider",
 ]

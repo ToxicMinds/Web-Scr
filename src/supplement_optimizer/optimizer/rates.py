@@ -50,3 +50,23 @@ class StaticRateProvider:
 
     def convert(self, amount: Money, target: Currency) -> Money:
         return Money(amount=amount.amount * self.rate(amount.currency, target), currency=target)
+
+
+# Indicative EUR-pivot rates used as an offline default and CI seed. Production
+# overrides these from the ``exchange_rates`` table. Kept here (not hardcoded in
+# business logic) so there is a single, documented source of default rates.
+DEFAULT_EUR_RATES: dict[Currency, Decimal] = {
+    Currency.GBP: Decimal("0.85"),
+    Currency.PLN: Decimal("4.30"),
+    Currency.CZK: Decimal("25.00"),
+    Currency.USD: Decimal("1.08"),
+    Currency.HUF: Decimal("395.00"),
+    Currency.RON: Decimal("4.97"),
+    Currency.SEK: Decimal("11.30"),
+    Currency.DKK: Decimal("7.46"),
+}
+
+
+def default_rate_provider() -> StaticRateProvider:
+    """Return a :class:`StaticRateProvider` seeded with indicative EUR rates."""
+    return StaticRateProvider(DEFAULT_EUR_RATES)
