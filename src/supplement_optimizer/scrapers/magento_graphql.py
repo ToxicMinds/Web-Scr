@@ -256,7 +256,10 @@ class MagentoGraphQLScraper(FixtureScraperPlugin):
     ) -> Offer | None:
         product = variant.get("product") or {}
         labels = [a.get("label", "") for a in (variant.get("attributes") or [])]
-        grams = _grams_from_labels(labels) or _weight_grams(product.get("weight"))
+        # Net content must come from the declared pack-size label (or product
+        # name), never the shipping ``weight`` which is gross and unreliable
+        # (e.g. tablet tubs whose gross weight far exceeds the active grams).
+        grams = _grams_from_labels(labels) or grams_from_text(product.get("name") or "")
         price = _final_price(product) or _final_price(item)
         if grams is None or price is None or grams < self.MIN_PACK_G:
             return None
@@ -286,17 +289,6 @@ def _final_price(node: dict[str, Any]) -> tuple[Decimal, Currency] | None:
     if value <= 0:
         return None
     return value, currency
-
-
-def _weight_grams(weight: object) -> Decimal | None:
-    if weight is None:
-        return None
-    try:
-        kg = Decimal(str(weight))
-    except InvalidOperation:
-        return None
-    grams = kg * _GRAMS_PER_KG
-    return grams if grams > 0 else None
 
 
 def _grams_from_labels(labels: list[str]) -> Decimal | None:

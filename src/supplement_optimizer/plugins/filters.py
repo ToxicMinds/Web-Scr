@@ -128,6 +128,14 @@ class CreatineMonohydrateFilter(ProductFilter):
         "blend",
         "nitrate",
         "pyruvate",
+        "tablet",
+        "tablets",
+        "capsule",
+        "capsules",
+        "caps",
+        "tabs",
+        "gummies",
+        "gummy",
     )
     ALLOWED_FORMS = (CreatineForm.STANDARD, CreatineForm.MICRONIZED)
 
