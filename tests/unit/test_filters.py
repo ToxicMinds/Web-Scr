@@ -40,9 +40,18 @@ def test_whey_filter_rejects_low_protein_serving() -> None:
     assert not WheyProteinFilter().accepts(offer)
 
 
-def test_whey_filter_rejects_when_protein_unknown() -> None:
+def test_whey_filter_accepts_genuine_whey_when_macros_unknown() -> None:
+    # ADR-0007: when a retailer's API does not expose per-serving macros we
+    # accept genuine whey (name passed include + exclusions) rather than discard
+    # all real inventory. Verified-low-protein items are still rejected above.
     offer = make_offer("a", WHEY, 1000, 25)
-    offer = offer.model_copy(update={"title": "Whey Protein Mystery"})
+    offer = offer.model_copy(update={"title": "GymBeam True Whey"})
+    assert WheyProteinFilter().accepts(offer)
+
+
+def test_whey_filter_rejects_non_powder_named_whey() -> None:
+    offer = make_offer("a", WHEY, 60, 2)
+    offer = offer.model_copy(update={"title": "Whey Protein Bar Chocolate"})
     assert not WheyProteinFilter().accepts(offer)
 
 

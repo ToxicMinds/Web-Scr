@@ -36,9 +36,19 @@ class Settings(BaseSettings):
 
     # --- Scraping ---
     playwright_browsers_path: str = "default"
-    scraper_user_agent: str = "supplement-optimizer/0.1 (+https://github.com/ToxicMinds/Web-Scr)"
+    scraper_user_agent: str = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    )
     scraper_request_timeout_seconds: float = 30.0
     scraper_max_concurrency: int = 4
+    #: When True, live plugins hit their real APIs; when False (default) they use
+    #: their deterministic offline seed catalog. The nightly/weekly workflows set
+    #: this True so production reports contain real prices; tests/CI stay offline.
+    scraper_live: bool = False
+    #: Optional CA bundle path for environments behind a TLS-intercepting proxy.
+    #: Falls back to the ``SSL_CERT_FILE`` env var, then to normal verification.
+    scraper_ca_bundle: str | None = None
 
     # --- Notifications ---
     notification_webhook: SecretStr | None = None

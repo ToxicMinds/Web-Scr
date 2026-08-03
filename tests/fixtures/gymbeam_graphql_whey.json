@@ -1,0 +1,110 @@
+{
+  "data": {
+    "products": {
+      "items": [
+        {
+          "__typename": "ConfigurableProduct",
+          "name": "True Whey - GymBeam",
+          "sku": "5075",
+          "url_key": "true-whey-gymbeam",
+          "url_suffix": ".html",
+          "stock_status": "IN_STOCK",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "value": 1.4,
+                "currency": "EUR"
+              }
+            }
+          },
+          "configurable_variants": [
+            {
+              "attributes": [
+                {
+                  "label": "01"
+                },
+                {
+                  "label": "bez príchute"
+                },
+                {
+                  "label": "1000 g"
+                }
+              ],
+              "product": {
+                "sku": "5075-93-1000g-unflavored-01",
+                "name": "True Whey - GymBeam 1000 g - bez príchute - 01",
+                "weight": 1.024,
+                "stock_status": "IN_STOCK",
+                "price_range": {
+                  "minimum_price": {
+                    "final_price": {
+                      "value": 33.95,
+                      "currency": "EUR"
+                    }
+                  }
+                },
+                "price_tiers": []
+              }
+            },
+            {
+              "attributes": [
+                {
+                  "label": "01"
+                },
+                {
+                  "label": "bez príchute"
+                },
+                {
+                  "label": "2500 g"
+                }
+              ],
+              "product": {
+                "sku": "5075-133-2500g-unflavored-01",
+                "name": "True Whey - GymBeam 2500 g - bez príchute - 01",
+                "weight": 2.57,
+                "stock_status": "IN_STOCK",
+                "price_range": {
+                  "minimum_price": {
+                    "final_price": {
+                      "value": 79.95,
+                      "currency": "EUR"
+                    }
+                  }
+                },
+                "price_tiers": []
+              }
+            },
+            {
+              "attributes": [
+                {
+                  "label": "00"
+                },
+                {
+                  "label": "banán"
+                },
+                {
+                  "label": "1000 g"
+                }
+              ],
+              "product": {
+                "sku": "5075-31-1000g-banana",
+                "name": "True Whey - GymBeam 1000 g - banán - 00",
+                "weight": 1.029,
+                "stock_status": "IN_STOCK",
+                "price_range": {
+                  "minimum_price": {
+                    "final_price": {
+                      "value": 33.95,
+                      "currency": "EUR"
+                    }
+                  }
+                },
+                "price_tiers": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

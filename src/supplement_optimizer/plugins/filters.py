@@ -67,6 +67,26 @@ class WheyProteinFilter(ProductFilter):
         "collagen",
         "egg protein",
         "beef protein",
+        # Non-powder formats that can contain the word "whey" in listings.
+        "bar",
+        "tyčinka",
+        "tycinka",
+        "drink",
+        "nápoj",
+        "napoj",
+        "cookie",
+        "chips",
+        "cream",
+        "spread",
+        "pancake",
+        "palacink",
+        "oats",
+        "kaša",
+        "kasa",
+        "cereal",
+        "sample",
+        "vzork",
+        "tester",
     )
 
     def accepts(self, offer: Offer) -> bool:
@@ -77,8 +97,11 @@ class WheyProteinFilter(ProductFilter):
             return offer.protein_per_serving_g >= MIN_PROTEIN_PER_SERVING_G
         if offer.protein_pct is not None:
             return offer.protein_pct >= MIN_WHEY_PROTEIN_PCT
-        # Neither figure available -> cannot verify the minimum: reject.
-        return False
+        # Macros not exposed by this retailer's API: the product is genuinely a
+        # whey powder (passed include + exclusions) but the >=22 g/serving figure
+        # cannot be verified. We accept rather than discard all real inventory,
+        # and the offer carries lower data confidence. See ADR-0007.
+        return True
 
 
 class CreatineMonohydrateFilter(ProductFilter):
@@ -117,10 +140,49 @@ class CreatineMonohydrateFilter(ProductFilter):
         return offer.creatine_form is None or offer.creatine_form in self.ALLOWED_FORMS
 
 
+class Omega3Filter(ProductFilter):
+    """Tier 2 example -- accept only fish-oil Omega-3 (measured in grams of oil).
+
+    Demonstrates that a *new divisible ingredient* needs only a filter + a
+    category seed + offers: the gram-based packing and the whole engine are
+    reused unchanged. Excludes plant/algae sources and krill to keep the
+    category strict, mirroring the whey/creatine rigor.
+    """
+
+    category = ProductCategory.OMEGA_3.value
+
+    INCLUDE = ("omega-3", "omega 3", "omega3", "fish oil")
+    EXCLUDE = ("flax", "flaxseed", "algae", "algal", "krill", "vegan", "plant", "chia")
+
+    def accepts(self, offer: Offer) -> bool:
+        title = offer.title
+        return _contains_any(title, self.INCLUDE) and not _contains_any(title, self.EXCLUDE)
+
+
+class GymShoeFilter(ProductFilter):
+    """Tier 3 example -- accept gym/training shoes (a discrete, sized item).
+
+    Selection by size/colour is a *requirement* concern (matched against
+    ``Offer.attributes`` by the engine), so this filter only enforces category
+    membership: training/gym footwear, excluding running/hiking/football boots.
+    """
+
+    category = ProductCategory.GYM_SHOES.value
+
+    INCLUDE = ("shoe", "trainer", "sneaker", "lifter")
+    EXCLUDE = ("running", "trail", "hiking", "football", "cleat", "sandal", "slipper")
+
+    def accepts(self, offer: Offer) -> bool:
+        title = offer.title
+        return _contains_any(title, self.INCLUDE) and not _contains_any(title, self.EXCLUDE)
+
+
 # Registry of built-in filters keyed by category. Extend by adding a filter.
 BUILTIN_FILTERS: dict[str, ProductFilter] = {
     WheyProteinFilter.category: WheyProteinFilter(),
     CreatineMonohydrateFilter.category: CreatineMonohydrateFilter(),
+    Omega3Filter.category: Omega3Filter(),
+    GymShoeFilter.category: GymShoeFilter(),
 }
 
 
