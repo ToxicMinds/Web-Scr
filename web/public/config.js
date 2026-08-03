@@ -12,6 +12,7 @@
  * variables; committed defaults stay empty so nothing sensitive is stored.
  */
 window.__SUPABASE__ = {
-  url: "",
-  anonKey: "",
+  url: "https://agbkqfylsoqqpntoxthk.supabase.co",
+  anonKey:
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFnYmtxZnlsc29xcXBudG94dGhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU3NjQ0OTQsImV4cCI6MjEwMTM0MDQ5NH0.4x0ot8pzZFC975cPcRhK8K0i5-xa86-gnPH5Oy7V0m0",
 };
