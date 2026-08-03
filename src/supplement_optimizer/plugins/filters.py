@@ -114,7 +114,7 @@ class CreatineMonohydrateFilter(ProductFilter):
 
     category = ProductCategory.CREATINE_MONOHYDRATE.value
 
-    INCLUDE = ("creatine",)
+    INCLUDE = ("creatine", "kreatin", "kreatín")
     EXCLUDE = (
         "hcl",
         "hydrochloride",
@@ -129,21 +129,25 @@ class CreatineMonohydrateFilter(ProductFilter):
         "nitrate",
         "pyruvate",
         "tablet",
-        "tablets",
+        "tablety",
         "capsule",
         "capsules",
+        "kapsul",
         "caps",
         "tabs",
+        "tabliet",
         "gummies",
         "gummy",
     )
+    #: Localised spellings of "monohydrate" (EN / SK / CZ / DE / PL).
+    MONOHYDRATE = ("monohydrate", "monohydrát", "monohydrat")
     ALLOWED_FORMS = (CreatineForm.STANDARD, CreatineForm.MICRONIZED)
 
     def accepts(self, offer: Offer) -> bool:
         title = offer.title
         if not _contains_any(title, self.INCLUDE) or _contains_any(title, self.EXCLUDE):
             return False
-        if "monohydrate" not in title.lower():
+        if not _contains_any(title, self.MONOHYDRATE):
             return False
         return offer.creatine_form is None or offer.creatine_form in self.ALLOWED_FORMS
 

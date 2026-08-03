@@ -13,7 +13,9 @@ fixture catalogs so tests and CI never depend on third-party site availability.
 
 from __future__ import annotations
 
+import os
 from abc import abstractmethod
+from collections.abc import Callable
 
 import httpx
 from bs4 import BeautifulSoup
@@ -31,6 +33,8 @@ from supplement_optimizer.scrapers._fixture import FixtureScraperPlugin
 
 _logger = get_logger(__name__)
 
+ClientFactory = Callable[[], httpx.AsyncClient]
+
 
 class HttpScraperPlugin(FixtureScraperPlugin):
     """Base for server-rendered retailers scraped over HTTP.
@@ -39,10 +43,20 @@ class HttpScraperPlugin(FixtureScraperPlugin):
     :class:`FixtureScraperPlugin` (so metadata stays declarative) but overrides
     :meth:`fetch` to retrieve and parse live listing pages. Subclasses implement
     :meth:`listing_urls` and :meth:`parse`.
+
+    Like the Magento base, live scraping is opt-in: unless ``scraper_live`` is
+    enabled (or an ``httpx`` client is injected for deterministic parser tests)
+    the deterministic fixture catalog is used, so CI never depends on a third
+    party being reachable.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        client_factory: ClientFactory | None = None,
+    ) -> None:
         self._settings = settings or get_settings()
+        self._client_factory = client_factory
 
     @abstractmethod
     def listing_urls(self, category: str) -> list[str]:
@@ -51,6 +65,22 @@ class HttpScraperPlugin(FixtureScraperPlugin):
     @abstractmethod
     def parse(self, category: str, soup: BeautifulSoup, source_url: str) -> list[Offer]:
         """Parse one listing page into raw :class:`Offer` objects."""
+
+    def _make_client(self) -> httpx.AsyncClient:
+        if self._client_factory is not None:
+            return self._client_factory()
+        headers = {"User-Agent": self._settings.scraper_user_agent}
+        return httpx.AsyncClient(
+            headers=headers,
+            timeout=self._settings.scraper_request_timeout_seconds,
+            follow_redirects=True,
+            verify=self._verify(),
+        )
+
+    def _verify(self) -> str | bool:
+        """Resolve the TLS trust store (see :meth:`MagentoGraphQLScraper._verify`)."""
+        bundle = self._settings.scraper_ca_bundle or os.environ.get("SSL_CERT_FILE")
+        return bundle if bundle else True
 
     @retry(
         retry=retry_if_exception_type(httpx.HTTPError),
@@ -64,10 +94,13 @@ class HttpScraperPlugin(FixtureScraperPlugin):
         return response.text
 
     async def fetch(self, category: str) -> list[Offer]:
+        # Offline/deterministic mode (tests, CI, local default): use the seed
+        # catalog. Live scraping only when explicitly enabled or a client is
+        # injected (parser tests via MockTransport). Mirrors the Magento base.
+        if self._client_factory is None and not self._settings.scraper_live:
+            return await FixtureScraperPlugin.fetch(self, category)
         offers: list[Offer] = []
-        headers = {"User-Agent": self._settings.scraper_user_agent}
-        timeout = self._settings.scraper_request_timeout_seconds
-        async with httpx.AsyncClient(headers=headers, timeout=timeout, follow_redirects=True) as c:
+        async with self._make_client() as c:
             for url in self.listing_urls(category):
                 try:
                     html = await self._get(c, url)
