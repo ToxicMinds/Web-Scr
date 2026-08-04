@@ -1,5 +1,5 @@
 retailer,slug,feasible,total_eur,shipping_confidence
 Bulk,bulk,true,136.42,determined
 GymBeam,gymbeam,true,158.46,determined
-Aktin,aktin,true,215.13,determined
+Aktin,aktin,false,,
 The Protein Works,protein_works,false,,

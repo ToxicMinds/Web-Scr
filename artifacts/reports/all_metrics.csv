@@ -1,48 +1,4 @@
 retailer,category,title,brand,currency,pack_content_g,price,price_per_kg,price_per_reference_serving,price_per_100g_protein,protein_grams_per_currency,cost_per_serving,cost_per_month,cost_per_year,availability,url
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/cokolada-1-000-g-32051
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/skoricova-rolka-1-000-g-34890
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,2000.0,59.99,29.995,0.749875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/cokolada-2-000-g-33424
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/jahodovy-milkshake-1-000-g-34889
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,2000.0,59.99,29.995,0.749875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/vanilka-2-000-g-33422
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/bez-prichute-1-000-g-33575
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/vanilka-1-000-g-44470
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/cokolada-s-lieskovymi-orechmi-1-000-g-44469
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,2000.0,59.99,29.995,0.749875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/skoricova-rolka-2-000-g-34918
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/bez-prichute-1-000-g-44904
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/skoricove-lupienky-1-000-g-44472
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/biela-cokolada-a-kokos-1-000-g-45777
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/jahoda-1-000-g-44467
-aktin,whey_protein,Lactose Free Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-lactose-free-whey-protein
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate
-aktin,whey_protein,Grass-Fed Multi Whey Protein,,EUR,900.0,35.99,39.98888888888889,0.9997222222222222,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-multi-whey-protein/bez-prichute-900-g-44863
-aktin,whey_protein,Grass-Fed Multi Whey Protein,,EUR,900.0,35.99,39.98888888888889,0.9997222222222222,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-multi-whey-protein
-aktin,whey_protein,Grass-Fed Whey Protein,,EUR,2000.0,59.99,29.995,0.749875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/jahodovy-milkshake-2-000-g-34917
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/biela-cokolada-1-000-g-45346
-aktin,whey_protein,Lactose Free Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-lactose-free-whey-protein/slany-karamel-1-000-g-45434
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,25.59,51.18,1.2795,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/lemon-splash-500-g-42560
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,31.99,63.98,1.5995,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/peach-fuzz-500-g-43909
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,31.99,63.98,1.5995,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,25.59,51.18,1.2795,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/zlty-melon-s-mangom-500-g-45988
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,25.59,51.18,1.2795,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/lemon-ice-tea-500-g-46079
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/vanilka-500-g-40368
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/cokolada-1-000-g-41891
-aktin,whey_protein,Whey Protein BIO,,EUR,1000.0,33.99,33.99,0.84975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-bio
-aktin,whey_protein,Grass-Fed Multi Whey Protein,,EUR,900.0,35.99,39.98888888888889,0.9997222222222222,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-multi-whey-protein/cokolada-a-lieskove-oriesky-900-g-44855
-aktin,whey_protein,Grass-Fed Multi Whey Protein,,EUR,900.0,35.99,39.98888888888889,0.9997222222222222,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-multi-whey-protein/biela-cokolada-900-g-44862
-aktin,whey_protein,Whey Protein,,EUR,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/panna-cotta-1-000-g-45193
-aktin,whey_protein,Lactose Free Whey Protein,,EUR,1000.0,35.99,35.99,0.89975,,,,,,in_stock,https://aktin.sk/vilgain-lactose-free-whey-protein/cucoriedka-1-000-g-42864
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/cokolada-500-g-39701
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/jahoda-500-g-39702
-aktin,whey_protein,Grass-Fed Whey Protein Isolate,,EUR,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/jahoda-1-000-g-41952
-aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,25.59,51.18,1.2795,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/mandarinka-500-g-46461
-aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,15.29,30.58,0.7645,,,,,,in_stock,https://aktin.sk/vilgain-kreatin
-aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,17.28,34.56,0.864,,,,,,in_stock,https://aktin.sk/vilgain-kreatin/mango-a-pomaranc-500-g-45659
-aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,500.0,39.99,79.98,1.9995,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r
-aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,300.0,11.49,38.3,0.9575,,,,,,in_stock,https://aktin.sk/vilgain-kreatin/bez-prichute-300-g-46888
-aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,300.0,27.99,93.3,2.3325,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-300-g-35577
-aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,100.0,14.99,149.9,3.7475,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-100-g-20-x-5-g-46409
 bulk,whey_protein,Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,27.99,27.99,0.69975,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
 bulk,whey_protein,Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,67.99,27.196,0.6799,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
 bulk,whey_protein,Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,129.99,25.998,0.64995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
