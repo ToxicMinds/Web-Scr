@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-05T05:32:35.537993+00:00",
+  "generated_at": "2026-08-06T05:35:00.826887+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "11c320c9-cd5c-48db-bb22-36f6fe58902c",
-    "strategy": "single_retailer",
+    "id": "9fc6be54-6755-48cb-a950-0c0d8f986a25",
+    "strategy": "multi_retailer",
     "currency": "EUR",
     "sub_baskets": [
       {
-        "retailer_slug": "gymbeam",
+        "retailer_slug": "bulk",
         "lines": [
           {
             "offer": {
-              "id": "f06dba61-cbfc-40fa-bdbd-07a28d20c45b",
-              "retailer_slug": "gymbeam",
+              "id": "b4ce2851-9316-48e3-8abe-dd5f82380d9a",
+              "retailer_slug": "bulk",
               "category": "whey_protein",
-              "title": "Anabolic Whey - GymBeam + dar\u010dek 2500 g - \u010dokol\u00e1da",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/protein-anabolic-whey-gymbeam.html",
-              "pack_content_g": "2500",
+              "title": "Basic Whey Protein - Strawberry 2.5kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe",
+              "pack_content_g": "2500.0",
               "price": {
-                "amount": "59.95",
+                "amount": "38.81",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -29,27 +29,50 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "\u010dokol\u00e1da"
+                "Strawberry"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-05T05:32:22.985061Z"
+              "scraped_at": "2026-08-06T05:34:52.371724Z"
             },
             "quantity": 2,
             "unit_price": {
-              "amount": "59.95",
+              "amount": "38.81",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "119.90",
+              "amount": "77.62",
               "currency": "EUR"
             },
-            "content_g": "5000"
-          },
+            "content_g": "5000.0"
+          }
+        ],
+        "product_subtotal": {
+          "amount": "77.62",
+          "currency": "EUR"
+        },
+        "coupon_code": null,
+        "coupon_discount": {
+          "amount": "0.00",
+          "currency": "EUR"
+        },
+        "shipping_cost": {
+          "amount": "8.22",
+          "currency": "EUR"
+        },
+        "shipping_confidence": "determined",
+        "total": {
+          "amount": "85.84",
+          "currency": "EUR"
+        }
+      },
+      {
+        "retailer_slug": "gymbeam",
+        "lines": [
           {
             "offer": {
-              "id": "48a06b97-34fe-4e61-9658-3152fb32bdab",
+              "id": "7dc99c79-bd52-4acc-90e8-4b0618a7ab0d",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 1500 g - zelen\u00e9 jablko - 01",
@@ -71,7 +94,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-05T05:32:02.992089Z"
+              "scraped_at": "2026-08-06T05:34:45.790107Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -86,7 +109,7 @@
           },
           {
             "offer": {
-              "id": "57615c6f-d272-486d-afa7-1e79b65ab017",
+              "id": "d3e18d75-cf94-409e-9d59-0540f562ff60",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
@@ -108,7 +131,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-05T05:32:02.992183Z"
+              "scraped_at": "2026-08-06T05:34:45.790196Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -123,37 +146,44 @@
           }
         ],
         "product_subtotal": {
-          "amount": "166.80",
+          "amount": "46.90",
           "currency": "EUR"
         },
-        "coupon_code": "GYMBEAM5",
+        "coupon_code": null,
         "coupon_discount": {
-          "amount": "8.34",
+          "amount": "0.00",
           "currency": "EUR"
         },
         "shipping_cost": {
-          "amount": "0.00",
+          "amount": "3.49",
           "currency": "EUR"
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "158.46",
+          "amount": "50.39",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "158.46",
+      "amount": "136.23",
       "currency": "EUR"
     },
     "fulfilled_g": {
-      "whey_protein": "5000",
+      "whey_protein": "5000.0",
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-08-05T05:32:35.535626Z"
+    "created_at": "2026-08-06T05:35:00.823897Z"
   },
   "retailer_rankings": [
+    {
+      "retailer": "Bulk",
+      "slug": "bulk",
+      "feasible": true,
+      "total_eur": 136.42,
+      "shipping_confidence": "determined"
+    },
     {
       "retailer": "GymBeam",
       "slug": "gymbeam",
@@ -164,13 +194,6 @@
     {
       "retailer": "Aktin",
       "slug": "aktin",
-      "feasible": false,
-      "total_eur": null,
-      "shipping_confidence": null
-    },
-    {
-      "retailer": "Bulk",
-      "slug": "bulk",
       "feasible": false,
       "total_eur": null,
       "shipping_confidence": null
