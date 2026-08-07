@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-06T05:35:00.826887+00:00",
+  "generated_at": "2026-08-07T04:38:09.064037+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "9fc6be54-6755-48cb-a950-0c0d8f986a25",
-    "strategy": "multi_retailer",
+    "id": "eaef91ba-a296-4dfd-a734-6e634203e8dc",
+    "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
       {
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "b4ce2851-9316-48e3-8abe-dd5f82380d9a",
+              "id": "177bb8de-c3f1-4428-a4fa-d5f310b041ae",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Strawberry 2.5kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-06T05:34:52.371724Z"
+              "scraped_at": "2026-08-07T04:37:38.987542Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -46,78 +46,18 @@
               "currency": "EUR"
             },
             "content_g": "5000.0"
-          }
-        ],
-        "product_subtotal": {
-          "amount": "77.62",
-          "currency": "EUR"
-        },
-        "coupon_code": null,
-        "coupon_discount": {
-          "amount": "0.00",
-          "currency": "EUR"
-        },
-        "shipping_cost": {
-          "amount": "8.22",
-          "currency": "EUR"
-        },
-        "shipping_confidence": "determined",
-        "total": {
-          "amount": "85.84",
-          "currency": "EUR"
-        }
-      },
-      {
-        "retailer_slug": "gymbeam",
-        "lines": [
-          {
-            "offer": {
-              "id": "7dc99c79-bd52-4acc-90e8-4b0618a7ab0d",
-              "retailer_slug": "gymbeam",
-              "category": "creatine_monohydrate",
-              "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 1500 g - zelen\u00e9 jablko - 01",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/kreatin-monohydrate-gymbeam.html",
-              "pack_content_g": "1500",
-              "price": {
-                "amount": "33.95",
-                "currency": "EUR"
-              },
-              "quantity_breaks": [],
-              "availability": "in_stock",
-              "protein_pct": null,
-              "serving_size_g": null,
-              "protein_per_serving_g": null,
-              "flavours": [
-                "zelen\u00e9 jablko"
-              ],
-              "creatine_form": null,
-              "attributes": {},
-              "ships_to": null,
-              "scraped_at": "2026-08-06T05:34:45.790107Z"
-            },
-            "quantity": 1,
-            "unit_price": {
-              "amount": "33.95",
-              "currency": "EUR"
-            },
-            "line_total": {
-              "amount": "33.95",
-              "currency": "EUR"
-            },
-            "content_g": "1500"
           },
           {
             "offer": {
-              "id": "d3e18d75-cf94-409e-9d59-0540f562ff60",
-              "retailer_slug": "gymbeam",
+              "id": "4eeb6d6e-82d3-4c74-8c31-b2d75e86a24c",
+              "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
-              "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/kreatin-monohydrate-gymbeam.html",
-              "pack_content_g": "500",
+              "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000",
+              "pack_content_g": "1000",
               "price": {
-                "amount": "12.95",
+                "amount": "29.40",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -126,27 +66,27 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "zelen\u00e9 jablko"
+                "Unflavoured"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-06T05:34:45.790196Z"
+              "scraped_at": "2026-08-07T04:37:31.198443Z"
             },
-            "quantity": 1,
+            "quantity": 2,
             "unit_price": {
-              "amount": "12.95",
+              "amount": "29.40",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "12.95",
+              "amount": "58.80",
               "currency": "EUR"
             },
-            "content_g": "500"
+            "content_g": "2000"
           }
         ],
         "product_subtotal": {
-          "amount": "46.90",
+          "amount": "136.42",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -155,18 +95,18 @@
           "currency": "EUR"
         },
         "shipping_cost": {
-          "amount": "3.49",
+          "amount": "0.00",
           "currency": "EUR"
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "50.39",
+          "amount": "136.42",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "136.23",
+      "amount": "136.42",
       "currency": "EUR"
     },
     "fulfilled_g": {
@@ -174,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-08-06T05:35:00.823897Z"
+    "created_at": "2026-08-07T04:38:09.060998Z"
   },
   "retailer_rankings": [
     {
@@ -188,7 +128,7 @@
       "retailer": "GymBeam",
       "slug": "gymbeam",
       "feasible": true,
-      "total_eur": 158.46,
+      "total_eur": 166.92,
       "shipping_confidence": "determined"
     },
     {
