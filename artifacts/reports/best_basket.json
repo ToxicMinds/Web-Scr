@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T04:25:09.298331+00:00",
+  "generated_at": "2026-08-15T03:19:56.251777+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "74d4f93b-c942-4a3c-8a20-707467d5e39c",
+    "id": "8a9a1ba3-76c3-49ff-8409-ec208f40dfc2",
     "strategy": "multi_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "6012317f-1e26-4bea-a42f-3c5997e7f2e0",
+              "id": "f725ae6d-5c3b-49d4-adec-f3cd1e8615c6",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Strawberry 2.5kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-14T04:24:54.628997Z"
+              "scraped_at": "2026-08-15T03:19:44.765407Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -72,7 +72,7 @@
         "lines": [
           {
             "offer": {
-              "id": "e2d4e281-2420-4a39-8d53-863ca495a5f4",
+              "id": "44b31044-ad28-40a9-9365-d27cd43eddaa",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 1500 g - zelen\u00e9 jablko - 01",
@@ -94,7 +94,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-14T04:24:48.807359Z"
+              "scraped_at": "2026-08-15T03:19:39.104419Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -109,7 +109,7 @@
           },
           {
             "offer": {
-              "id": "1c559918-3fcb-42e3-b0a5-f8295496cfb5",
+              "id": "31c417e7-a79b-45ac-b833-c381125d9dbc",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
@@ -131,7 +131,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-14T04:24:48.807451Z"
+              "scraped_at": "2026-08-15T03:19:39.104478Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -174,7 +174,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-08-14T04:25:09.295532Z"
+    "created_at": "2026-08-15T03:19:56.249105Z"
   },
   "retailer_rankings": [
     {
