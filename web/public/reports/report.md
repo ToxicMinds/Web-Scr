@@ -1,28 +1,28 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-08-23 03:30:54 UTC_
+_Generated: 2026-08-24 03:32:47 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
 
-- **Total: 143.29 EUR**  
+- **Total: 147.97 EUR**  
 - Strategy: multi_retailer  
 - Shipping confidence: determined  
 
-### bulk — 92.90 EUR (goods 84.68 EUR, shipping 8.22 EUR)
-- 2 × Basic Whey Protein - Strawberry 2.5kg @ 42.34 EUR = 84.68 EUR ([link](https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe))
+### bulk — 97.58 EUR (goods 89.36 EUR, shipping 8.22 EUR)
+- 4 × Basic Whey Protein - Vanilla 1.25kg @ 22.34 EUR = 89.36 EUR ([link](https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe))
 
 ### gymbeam — 50.39 EUR (goods 46.90 EUR, shipping 3.49 EUR)
 - 1 × 100% Mikronizovaný kreatín monohydrát 1500 g - zelené jablko - 01 @ 33.95 EUR = 33.95 EUR ([link](https://gymbeam.sk/kreatin-monohydrate-gymbeam.html))
 - 1 × 100% Mikronizovaný kreatín monohydrát 500 g - zelené jablko - 01 @ 12.95 EUR = 12.95 EUR ([link](https://gymbeam.sk/kreatin-monohydrate-gymbeam.html))
 
-_Fulfilled: whey_protein: 5000.0 g, creatine_monohydrate: 2000 g_
+_Fulfilled: whey_protein: 5000.00 g, creatine_monohydrate: 2000 g_
 
 ## Retailer Rankings (whole basket, single retailer)
 
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
-| Bulk | bulk | True | 143.48 | determined |
+| Bulk | bulk | True | 148.16 | determined |
 | GymBeam | gymbeam | True | 158.46 | determined |
 | Aktin | aktin | False |  |  |
 | The Protein Works | protein_works | False |  |  |

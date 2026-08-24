@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-23T03:30:54.173622+00:00",
+  "generated_at": "2026-08-24T03:32:47.367130+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "88c4c6c2-ad65-46f2-935d-4a15ef64b96c",
+    "id": "4bcacc4f-0a2f-43c9-af75-941c1f36f7ce",
     "strategy": "multi_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,15 +12,15 @@
         "lines": [
           {
             "offer": {
-              "id": "815a9207-7959-4110-9629-c6f321bb179e",
+              "id": "5d3b8112-e42f-49a3-bafd-0eb4b9b9b2f1",
               "retailer_slug": "bulk",
               "category": "whey_protein",
-              "title": "Basic Whey Protein - Strawberry 2.5kg",
+              "title": "Basic Whey Protein - Vanilla 1.25kg",
               "brand": "Bulk",
               "url": "https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe",
-              "pack_content_g": "2500.0",
+              "pack_content_g": "1250.00",
               "price": {
-                "amount": "42.34",
+                "amount": "22.34",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -29,27 +29,27 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "Strawberry"
+                "Vanilla"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-23T03:30:28.741790Z"
+              "scraped_at": "2026-08-24T03:32:42.373882Z"
             },
-            "quantity": 2,
+            "quantity": 4,
             "unit_price": {
-              "amount": "42.34",
+              "amount": "22.34",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "84.68",
+              "amount": "89.36",
               "currency": "EUR"
             },
-            "content_g": "5000.0"
+            "content_g": "5000.00"
           }
         ],
         "product_subtotal": {
-          "amount": "84.68",
+          "amount": "89.36",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -63,7 +63,7 @@
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "92.90",
+          "amount": "97.58",
           "currency": "EUR"
         }
       },
@@ -72,7 +72,7 @@
         "lines": [
           {
             "offer": {
-              "id": "46e2599e-75da-4959-98e4-8b729e7e0d8b",
+              "id": "e3fc4e5c-1256-4a0c-be30-11d64d721f7a",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 1500 g - zelen\u00e9 jablko - 01",
@@ -94,7 +94,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-23T03:30:25.615486Z"
+              "scraped_at": "2026-08-24T03:32:36.275323Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -109,7 +109,7 @@
           },
           {
             "offer": {
-              "id": "cdb6e747-c836-4c59-af7c-2b7ed5fb2c5b",
+              "id": "9cb3ae03-9d0d-4ffe-93c2-cd710a65ce39",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
@@ -131,7 +131,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-23T03:30:25.615561Z"
+              "scraped_at": "2026-08-24T03:32:36.275420Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -166,22 +166,22 @@
       }
     ],
     "total": {
-      "amount": "143.29",
+      "amount": "147.97",
       "currency": "EUR"
     },
     "fulfilled_g": {
-      "whey_protein": "5000.0",
+      "whey_protein": "5000.00",
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-08-23T03:30:54.171218Z"
+    "created_at": "2026-08-24T03:32:47.363944Z"
   },
   "retailer_rankings": [
     {
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 143.48,
+      "total_eur": 148.16,
       "shipping_confidence": "determined"
     },
     {
