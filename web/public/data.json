@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-31T08:51:56.514891+00:00",
+  "generated_at": "2026-09-01T07:58:11.975590+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "e5f50ebb-e01f-494c-9be9-016fde32367d",
-    "strategy": "multi_retailer",
+    "id": "c3c5b35c-6756-4fca-94fe-ae66cdb977f3",
+    "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
       {
@@ -12,15 +12,15 @@
         "lines": [
           {
             "offer": {
-              "id": "a62173cd-3e78-4e16-918d-6161098f69dc",
+              "id": "8aabe6ab-ad1c-48f6-aa2b-577714651501",
               "retailer_slug": "bulk",
               "category": "whey_protein",
-              "title": "Basic Whey Protein - Vanilla 1.25kg",
+              "title": "Pure Whey Protein\u2122 - Chocolate 5kg",
               "brand": "Bulk",
-              "url": "https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe",
-              "pack_content_g": "1250.00",
+              "url": "https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000",
+              "pack_content_g": "5000",
               "price": {
-                "amount": "22.34",
+                "amount": "158.81",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -29,58 +29,35 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "Vanilla"
+                "Chocolate"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-31T08:51:45.825546Z"
+              "scraped_at": "2026-09-01T07:58:05.653422Z"
             },
-            "quantity": 4,
+            "quantity": 1,
             "unit_price": {
-              "amount": "22.34",
+              "amount": "158.81",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "89.36",
+              "amount": "158.81",
               "currency": "EUR"
             },
-            "content_g": "5000.00"
-          }
-        ],
-        "product_subtotal": {
-          "amount": "89.36",
-          "currency": "EUR"
-        },
-        "coupon_code": null,
-        "coupon_discount": {
-          "amount": "0.00",
-          "currency": "EUR"
-        },
-        "shipping_cost": {
-          "amount": "8.22",
-          "currency": "EUR"
-        },
-        "shipping_confidence": "determined",
-        "total": {
-          "amount": "97.58",
-          "currency": "EUR"
-        }
-      },
-      {
-        "retailer_slug": "gymbeam",
-        "lines": [
+            "content_g": "5000"
+          },
           {
             "offer": {
-              "id": "31c5bb1f-b798-4570-83c2-51ffed30175c",
-              "retailer_slug": "gymbeam",
+              "id": "a462f03e-3ebf-4e8c-a966-111638a355d4",
+              "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
-              "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/kreatin-monohydrate-gymbeam.html",
-              "pack_content_g": "500",
+              "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000",
+              "pack_content_g": "1000",
               "price": {
-                "amount": "9.95",
+                "amount": "29.40",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -89,27 +66,27 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "zelen\u00e9 jablko"
+                "Unflavoured"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-08-31T08:51:39.749274Z"
+              "scraped_at": "2026-09-01T07:58:04.466949Z"
             },
-            "quantity": 4,
+            "quantity": 2,
             "unit_price": {
-              "amount": "9.95",
+              "amount": "29.40",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "39.80",
+              "amount": "58.80",
               "currency": "EUR"
             },
             "content_g": "2000"
           }
         ],
         "product_subtotal": {
-          "amount": "39.80",
+          "amount": "217.61",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -118,45 +95,45 @@
           "currency": "EUR"
         },
         "shipping_cost": {
-          "amount": "3.49",
+          "amount": "0.00",
           "currency": "EUR"
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "43.29",
+          "amount": "217.61",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "140.87",
+      "amount": "217.61",
       "currency": "EUR"
     },
     "fulfilled_g": {
-      "whey_protein": "5000.00",
+      "whey_protein": "5000",
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-08-31T08:51:56.512048Z"
+    "created_at": "2026-09-01T07:58:11.973796Z"
   },
   "retailer_rankings": [
     {
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 148.16,
-      "shipping_confidence": "determined"
-    },
-    {
-      "retailer": "GymBeam",
-      "slug": "gymbeam",
-      "feasible": true,
-      "total_eur": 151.71,
+      "total_eur": 217.61,
       "shipping_confidence": "determined"
     },
     {
       "retailer": "Aktin",
       "slug": "aktin",
+      "feasible": false,
+      "total_eur": null,
+      "shipping_confidence": null
+    },
+    {
+      "retailer": "GymBeam",
+      "slug": "gymbeam",
       "feasible": false,
       "total_eur": null,
       "shipping_confidence": null
