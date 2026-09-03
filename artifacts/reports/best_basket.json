@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02T07:17:43.284273+00:00",
+  "generated_at": "2026-09-03T07:21:25.060974+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "74d07d9f-46e9-4360-b322-59d6857c45dd",
+    "id": "2f48badf-60fe-44e0-8169-9f39b6b016c0",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "c18daadf-e7c7-4aa4-8a1c-cd9539f120a1",
+              "id": "df416484-3644-442d-ba52-38425f09af30",
               "retailer_slug": "gymbeam",
               "category": "whey_protein",
               "title": "Prote\u00edn Anabolic Whey - GymBeam 2500 g - \u010dokol\u00e1da",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-02T07:17:38.861066Z"
+              "scraped_at": "2026-09-03T07:21:20.913604Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "3c23d845-d51d-4f8e-8cbb-984bee8afbb8",
+              "id": "d31ea5cb-2c54-4dc4-a5c3-125817ba1504",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100% Mikronizovan\u00fd kreat\u00edn monohydr\u00e1t 500 g - zelen\u00e9 jablko - 01",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-02T07:17:23.316007Z"
+              "scraped_at": "2026-09-03T07:21:11.420958Z"
             },
             "quantity": 4,
             "unit_price": {
@@ -114,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-09-02T07:17:43.281548Z"
+    "created_at": "2026-09-03T07:21:25.058301Z"
   },
   "retailer_rankings": [
     {
