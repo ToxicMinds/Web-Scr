@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-09-05 07:05:11 UTC_
+_Generated: 2026-09-06 07:16:30 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -42,12 +42,12 @@ _No data._
 | gymbeam | Creatine Monohydrate - GoNutrition bez príchute - 500 g | 12.95 | 500 | 25.9 | https://gymbeam.sk/creatine-monohydrate-gonutrition.html |
 | gymbeam | 100 % Kreatín monohydrát - GymBeam 500 g - zelené jablko - 01 | 12.95 | 500 | 25.9 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 500g | 12.99 | 500 | 25.98 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
+| gymbeam | Creatine monohydrate+ - GymBeam 400 g - zelené jablko | 10.95 | 400 | 27.375 | https://gymbeam.sk/creatine-performance-gymbeam.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 250g | 7.49 | 250 | 29.96 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | gymbeam | 100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01 | 7.5 | 250 | 30 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
 | gymbeam | Kreatín Pure monohydrát - Bodylab 400 g | 12.5 | 400 | 31.25 | https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html |
 | gymbeam | Creatine Monohydrate - Amix 1000 g | 33.95 | 1000 | 33.95 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | gymbeam | Creatine Monohydrate - Amix 500 g | 18.5 | 500 | 37 | https://gymbeam.sk/creatine-monohydrate-amix.html |
-| gymbeam | Creatine monohydrate+ - GymBeam 400 g - zelené jablko | 15.95 | 400 | 39.875 | https://gymbeam.sk/creatine-performance-gymbeam.html |
 | gymbeam | Kreatín monohydrát - Redcon1 300 g | 13.95 | 300 | 46.5 | https://gymbeam.sk/kreatin-monohydrat-redcon1.html |
 | gymbeam | Creatine Monohydrate - Amix 300 g | 14.95 | 300 | 49.833 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 100g | 4.99 | 100 | 49.9 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
