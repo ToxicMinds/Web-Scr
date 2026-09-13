@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-12T07:19:34.984418+00:00",
+  "generated_at": "2026-09-13T07:40:23.063206+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "785bf133-6a67-48c4-9b4d-6efcf3e4711f",
+    "id": "97a4048c-1f62-4c1d-b0ab-4c42fc0dae28",
     "strategy": "multi_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "e541ba70-302c-412f-a01e-8122103eb337",
+              "id": "a2c2d4dc-f369-4452-8696-580fbb3a7059",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Strawberry 2.5kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-12T07:19:23.149816Z"
+              "scraped_at": "2026-09-13T07:37:56.936477Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -72,7 +72,7 @@
         "lines": [
           {
             "offer": {
-              "id": "e4fa0e83-57da-4150-8a5e-966bd2ed07b0",
+              "id": "fe4d090f-c67b-4490-8b0b-7cded9126450",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100 % Kreat\u00edn monohydr\u00e1t - GymBeam 1500 g - zelen\u00e9 jablko - 01",
@@ -94,7 +94,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-12T07:19:19.210420Z"
+              "scraped_at": "2026-09-13T07:37:55.275143Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -109,7 +109,7 @@
           },
           {
             "offer": {
-              "id": "c989fb49-c894-42ab-9447-d2c0414637d1",
+              "id": "78f0dc6a-b22b-47dc-b1d8-f19c5208b51b",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100 % Kreat\u00edn monohydr\u00e1t - GymBeam 500 g - zelen\u00e9 jablko - 01",
@@ -131,7 +131,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-12T07:19:19.210531Z"
+              "scraped_at": "2026-09-13T07:37:55.275219Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -174,7 +174,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-09-12T07:19:34.980862Z"
+    "created_at": "2026-09-13T07:40:23.060619Z"
   },
   "retailer_rankings": [
     {
