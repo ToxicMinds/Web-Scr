@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T07:52:20.078803+00:00",
+  "generated_at": "2026-09-17T07:57:13.255698+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "3bba1e1f-fd0b-4093-ba1f-88f219bdeab8",
+    "id": "e6ec190c-2725-4ca0-addb-79407ad231e5",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "255c6b7b-7ad2-4fda-9389-cbb8c4ec3b0b",
+              "id": "6c43924b-8bf5-4d60-b0b8-1809855e30a7",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Strawberry 2.5kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-16T07:52:08.818198Z"
+              "scraped_at": "2026-09-17T07:57:02.409767Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "2fc8fae4-43f5-4fff-a866-6db638f14cb9",
+              "id": "e0d00449-69e1-48b1-b3c0-1ff84e4cc665",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-16T07:52:04.307261Z"
+              "scraped_at": "2026-09-17T07:56:58.044027Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -114,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-09-16T07:52:20.076290Z"
+    "created_at": "2026-09-17T07:57:13.252616Z"
   },
   "retailer_rankings": [
     {

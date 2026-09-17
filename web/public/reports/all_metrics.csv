@@ -29,7 +29,7 @@ bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 500g,Bulk,GBP,500.0,
 bulk,whey_protein,Clear Whey Isolate - Strawberry & Watermelon 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Clear Whey Isolate - Peach Iced Tea 2kg,Bulk,GBP,2000.0,94.99,47.495,1.187375,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 500g,Bulk,GBP,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
-bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
+bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,out_of_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 2.5kg,Bulk,GBP,2500.0,119.99,47.996,1.1999,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
 bulk,whey_protein,Diet Whey Protein - Chocolate 500g,Bulk,GBP,500.0,15.99,31.98,0.7995,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
 bulk,whey_protein,Diet Whey Protein - Chocolate 1kg,Bulk,GBP,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
@@ -91,7 +91,7 @@ gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 1000 g - čokoláda liesk
 gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
 gymbeam,whey_protein,Proteín Anabolic Whey - GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,27.95,27.95,0.69875,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
 gymbeam,whey_protein,Proteín Anabolic Whey - GymBeam 2500 g - čokoláda,GymBeam,EUR,2500.0,59.95,23.98,0.5995,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
-gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
+gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
 gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 3000 g - čokoláda,GymBeam,EUR,3000.0,93.95,31.316666666666666,0.7829166666666667,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
 gymbeam,whey_protein,Whey Proteín - GYMQUEEN banán - 500 g,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-gymqueen.html
 gymbeam,whey_protein,Whey Protein 80 - The Protein Works 1000 g - karamelové macchiato,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
