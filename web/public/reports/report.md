@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-09-17 07:57:13 UTC_
+_Generated: 2026-09-18 07:35:17 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -48,6 +48,6 @@ _No data._
 | gymbeam | Kreatín monohydrát - Redcon1 300 g | 13.95 | 300 | 46.5 | https://gymbeam.sk/kreatin-monohydrat-redcon1.html |
 | gymbeam | Creatine Monohydrate - Amix 300 g | 14.95 | 300 | 49.833 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 100g | 4.99 | 100 | 49.9 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
-| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 1kg | 74.99 | 1000 | 74.99 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
-| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 500g | 39.99 | 500 | 79.98 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
-| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 100g | 9.99 | 100 | 99.9 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
+| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 1kg | 79.99 | 1000 | 79.99 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
+| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 500g | 41.99 | 500 | 83.98 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
+| bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 100g | 10.99 | 100 | 109.9 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
