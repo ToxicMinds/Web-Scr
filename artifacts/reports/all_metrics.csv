@@ -1,48 +1,48 @@
 retailer,category,title,brand,currency,pack_content_g,price,price_per_kg,price_per_reference_serving,price_per_100g_protein,protein_grams_per_currency,cost_per_serving,cost_per_month,cost_per_year,availability,url
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,32.99,32.99,0.82475,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,77.99,31.196,0.7799,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,149.99,29.998,0.74995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,29.99,29.99,0.74975,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,72.99,29.196,0.7299,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,139.99,27.998,0.69995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,17.99,35.98,0.8995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
 bulk,whey_protein,Pure Whey Isolate™ - Strawberry 500g,Bulk,GBP,500.0,25.99,51.98,1.2995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ - Strawberry 2.5kg,Bulk,GBP,2500.0,111.99,44.796,1.1199,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ - Strawberry 5kg,Bulk,GBP,5000.0,209.99,41.998,1.04995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ - Chocolate 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ Unflavoured 2kg,Bulk,GBP,2000.0,89.99,44.995,1.124875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ Chocolate Caramel 450g,Bulk,GBP,450.0,23.99,53.31111111111111,1.3327777777777778,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ Unflavoured 900g,Bulk,GBP,900.0,44.99,49.98888888888889,1.2497222222222222,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Isolate™ Unflavoured 4kg,Bulk,GBP,4000.0,167.99,41.9975,1.0499375,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
-bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,38.99,38.99,0.97475,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
-bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,89.99,35.996,0.8999,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
-bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,174.99,34.998,0.87495,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
-bulk,whey_protein,Informed Whey Protein - Double Chocolate 2.27kg,Bulk,GBP,2270.0,79.99,35.23788546255506,0.8809471365638767,,,,,,out_of_stock,https://www.bulk.com/uk/products/informed-whey/bpps-iwhe
+bulk,whey_protein,Pure Whey Isolate™ - Strawberry 2.5kg,Bulk,GBP,2500.0,109.99,43.996,1.0999,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ - Strawberry 5kg,Bulk,GBP,5000.0,199.99,39.998,0.99995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ - Chocolate 1kg,Bulk,GBP,1000.0,48.99,48.99,1.22475,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ Unflavoured 2kg,Bulk,GBP,2000.0,87.99,43.995,1.099875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ Chocolate Caramel 450g,Bulk,GBP,450.0,22.99,51.08888888888889,1.2772222222222223,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ Unflavoured 900g,Bulk,GBP,900.0,43.99,48.87777777777778,1.2219444444444445,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Pure Whey Isolate™ Unflavoured 4kg,Bulk,GBP,4000.0,164.99,41.2475,1.0311875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
+bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 500g,Bulk,GBP,500.0,18.99,37.98,0.9495,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
+bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,36.99,36.99,0.92475,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
+bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,84.99,33.996,0.8499,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
+bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,164.99,32.998,0.82495,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
+bulk,whey_protein,Informed Whey Protein - Double Chocolate 2.27kg,Bulk,GBP,2270.0,74.99,33.0352422907489,0.8258810572687225,,,,,,out_of_stock,https://www.bulk.com/uk/products/informed-whey/bpps-iwhe
 bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 500g,Bulk,GBP,500.0,25.99,51.98,1.2995,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
-bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,out_of_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
-bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 2.5kg,Bulk,GBP,2500.0,111.99,44.796,1.1199,,,,,,out_of_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
-bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 5kg,Bulk,GBP,5000.0,209.99,41.998,1.04995,,,,,,out_of_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
-bulk,whey_protein,Pure Whey Protein+ - Salted Caramel 2kg,Bulk,GBP,2000.0,54.99,27.495,0.687375,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
-bulk,whey_protein,Pure Whey Protein+ - Vanilla 900g,Bulk,GBP,900.0,26.99,29.988888888888887,0.7497222222222222,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
-bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,23.49,46.98,1.1745,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
-bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 1kg,Bulk,GBP,1000.0,39.99,39.99,0.99975,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
-bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 2.5kg,Bulk,GBP,2500.0,91.99,36.796,0.9199,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
-bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 500g,Bulk,GBP,500.0,25.99,51.98,1.2995,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
-bulk,whey_protein,Clear Whey Isolate - Strawberry & Watermelon 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
-bulk,whey_protein,Clear Whey Isolate - Peach Iced Tea 2kg,Bulk,GBP,2000.0,94.99,47.495,1.187375,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
+bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
+bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 2.5kg,Bulk,GBP,2500.0,111.99,44.796,1.1199,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
+bulk,whey_protein,Natural Pure Whey Isolate™ - Chocolate 5kg,Bulk,GBP,5000.0,209.99,41.998,1.04995,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-isolate-90/bpb-npwi
+bulk,whey_protein,Pure Whey Protein+ - Salted Caramel 2kg,Bulk,GBP,2000.0,51.99,25.995,0.649875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
+bulk,whey_protein,Pure Whey Protein+ - Vanilla 900g,Bulk,GBP,900.0,23.99,26.655555555555555,0.6663888888888889,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
+bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,18.99,37.98,0.9495,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
+bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 1kg,Bulk,GBP,1000.0,35.99,35.99,0.89975,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
+bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 2.5kg,Bulk,GBP,2500.0,84.99,33.996,0.8499,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
+bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 500g,Bulk,GBP,500.0,23.99,47.98,1.1995,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
+bulk,whey_protein,Clear Whey Isolate - Strawberry & Watermelon 1kg,Bulk,GBP,1000.0,46.99,46.99,1.17475,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
+bulk,whey_protein,Clear Whey Isolate - Peach Iced Tea 2kg,Bulk,GBP,2000.0,89.99,44.995,1.124875,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 500g,Bulk,GBP,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
-bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 1kg,Bulk,GBP,1000.0,54.99,54.99,1.37475,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
-bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 2.5kg,Bulk,GBP,2500.0,129.99,51.996,1.2999,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
-bulk,whey_protein,Basic Whey Protein - Vanilla 1.25kg,Bulk,GBP,1250.0,18.99,15.192,0.3798,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
-bulk,whey_protein,Basic Whey Protein - Strawberry 2.5kg,Bulk,GBP,2500.0,35.99,14.396,0.3599,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
-bulk,whey_protein,Diet Whey Protein - Chocolate 500g,Bulk,GBP,500.0,15.99,31.98,0.7995,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
-bulk,whey_protein,Diet Whey Protein - Chocolate 1kg,Bulk,GBP,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
-bulk,whey_protein,Whey Protein Coffee - Iced Caramel Latte 500g,Bulk,GBP,500.0,17.99,35.98,0.8995,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
-bulk,whey_protein,Whey Protein Coffee - Iced Latte 1kg,Bulk,GBP,1000.0,33.99,33.99,0.84975,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
-bulk,whey_protein,Clear Whey All In One - Apple & Blackcurrant 500g,Bulk,GBP,500.0,22.49,44.98,1.1245,,,,,,in_stock,https://www.bulk.com/uk/products/clear-all-in-one/bble-cwa1
-bulk,whey_protein,Clear Whey All In One - Apple & Blackcurrant 1kg,Bulk,GBP,1000.0,38.99,38.99,0.97475,,,,,,in_stock,https://www.bulk.com/uk/products/clear-all-in-one/bble-cwa1
-bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 100g,Bulk,GBP,100.0,4.99,49.9,1.2475,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 1kg,Bulk,GBP,1000.0,51.99,51.99,1.29975,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
+bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 2.5kg,Bulk,GBP,2500.0,124.99,49.996,1.2499,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
+bulk,whey_protein,Basic Whey Protein - Vanilla 1.25kg,Bulk,GBP,1250.0,16.99,13.592,0.3398,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
+bulk,whey_protein,Basic Whey Protein - Strawberry 2.5kg,Bulk,GBP,2500.0,32.99,13.196,0.3299,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
+bulk,whey_protein,Diet Whey Protein - Chocolate 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
+bulk,whey_protein,Diet Whey Protein - Chocolate 1kg,Bulk,GBP,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
+bulk,whey_protein,Whey Protein Coffee - Iced Caramel Latte 500g,Bulk,GBP,500.0,14.99,29.98,0.7495,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
+bulk,whey_protein,Whey Protein Coffee - Iced Latte 1kg,Bulk,GBP,1000.0,27.99,27.99,0.69975,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
+bulk,whey_protein,Clear Whey All In One - Apple & Blackcurrant 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/clear-all-in-one/bble-cwa1
+bulk,whey_protein,Clear Whey All In One - Apple & Blackcurrant 1kg,Bulk,GBP,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://www.bulk.com/uk/products/clear-all-in-one/bble-cwa1
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 100g,Bulk,GBP,100.0,3.99,39.9,0.9975,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
 bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 500g,Bulk,GBP,500.0,10.99,21.98,0.5495,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
 bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 1kg,Bulk,GBP,1000.0,19.99,19.99,0.49975,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
-bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 250g,Bulk,GBP,250.0,8.99,35.96,0.899,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
+bulk,creatine_monohydrate,Creatine Monohydrate Powder - Unflavoured 250g,Bulk,GBP,250.0,7.99,31.96,0.799,,,,,,in_stock,https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000
 bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 100g,Bulk,GBP,100.0,10.99,109.9,2.7475,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
 bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 500g,Bulk,GBP,500.0,41.99,83.98,2.0995,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
 bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 1kg,Bulk,GBP,1000.0,79.99,79.99,1.99975,,,,,,in_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
@@ -75,10 +75,10 @@ gymbeam,whey_protein,Protein 100% Whey Isolate - Scitec Nutrition 700 g - banán
 gymbeam,whey_protein,Proteín 100% Whey Protein - MuscleTech  2270 g - trojitá čokoláda,GymBeam,EUR,2270.0,33.95,14.955947136563877,0.3738986784140969,,,,,,out_of_stock,https://gymbeam.sk/100-premium-whey-protein-plus-muscletech.html
 gymbeam,whey_protein,Animal 100 % Whey Proteín - Universal Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,out_of_stock,https://gymbeam.sk/animal-100-whey-protein-universal-nutrition.html
 gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 2250 g - vanilková zmrzlina,GymBeam,EUR,2250.0,70.95,31.533333333333335,0.7883333333333333,,,,,,out_of_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 450 g - dvojitá bohatá čokoláda,GymBeam,EUR,450.0,22.95,51.0,1.275,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 4540 g - dvojitá bohatá čokoláda,GymBeam,EUR,4540.0,169.95,37.43392070484582,0.9358480176211453,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 768 g - banánový krém,GymBeam,EUR,768.0,39.95,52.018229166666664,1.3004557291666667,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 2010 g - banánový krém,GymBeam,EUR,2010.0,79.95,39.776119402985074,0.9944029850746269,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 450 g - dvojitá bohatá čokoláda,GymBeam,EUR,450.0,24.95,55.44444444444444,1.386111111111111,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 4540 g - dvojitá bohatá čokoláda,GymBeam,EUR,4540.0,179.95,39.636563876651984,0.9909140969162996,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 768 g - banánový krém,GymBeam,EUR,768.0,42.95,55.924479166666664,1.3981119791666667,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,100% Whey Gold Standard - Optimum Nutrition 2010 g - banánový krém,GymBeam,EUR,2010.0,83.95,41.766169154228855,1.0441542288557213,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
 gymbeam,whey_protein,Proteín 100% Premium Whey Protein Plus - MuscleTech 2720 g - deluxe čokoláda,GymBeam,EUR,2720.0,39.95,14.6875,0.3671875,,,,,,out_of_stock,https://gymbeam.sk/100-premium-whey-protein-plus-muscletech-2.html
 gymbeam,whey_protein,Proteín 100% Premium Whey Isolate Plus 1360 g - MuscleTech deluxe čokoláda,GymBeam,EUR,1360.0,29.95,22.022058823529413,0.5505514705882353,,,,,,out_of_stock,https://gymbeam.sk/protein-100-premium-whey-isolate-plus-1380-g-muscletech.html
 gymbeam,whey_protein,Clear Whey - Ghost 640 g - modrá malina,GymBeam,EUR,640.0,46.95,73.359375,1.833984375,,,,,,in_stock,https://gymbeam.sk/clear-whey-ghost.html
@@ -91,8 +91,6 @@ gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 1000 g - čokoláda liesk
 gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
 gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
 gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 3000 g - čokoláda,GymBeam,EUR,3000.0,93.95,31.316666666666666,0.7829166666666667,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
-gymbeam,whey_protein,Proteín Anabolic Whey - GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,27.95,27.95,0.69875,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
-gymbeam,whey_protein,Proteín Anabolic Whey - GymBeam 2500 g - čokoláda,GymBeam,EUR,2500.0,59.95,23.98,0.5995,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
 gymbeam,whey_protein,Whey Proteín - GYMQUEEN banán - 500 g,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-gymqueen.html
 gymbeam,whey_protein,Whey Protein 80 - The Protein Works 1000 g - karamelové macchiato,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
 gymbeam,whey_protein,Whey Protein 80 - The Protein Works 2000 g - karamelové macchiato,GymBeam,EUR,2000.0,62.95,31.475,0.786875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
@@ -100,14 +98,15 @@ gymbeam,whey_protein,Whey Protein 80 - The Protein Works 500 g - karamelové mac
 gymbeam,whey_protein,Whey Protein - Bodylab24 1000 g - banán,GymBeam,EUR,1000.0,39.95,39.95,0.99875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-bodylab24.html
 gymbeam,whey_protein,Whey Protein - Bodylab24 2000 g - banán,GymBeam,EUR,2000.0,64.95,32.475,0.811875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-bodylab24.html
 gymbeam,whey_protein,BIO Whey Protein Lactose Free - Purasana čokoláda - 400 g,GymBeam,EUR,400.0,42.95,107.375,2.684375,,,,,,out_of_stock,https://gymbeam.sk/bio-whey-protein-lactose-free-purasana.html
+gymbeam,whey_protein,Proteín Clear Whey Hydrate - GymBeam 500 g - zelené jablko,GymBeam,EUR,500.0,28.95,57.9,1.4475,,,,,,in_stock,https://gymbeam.sk/clear-whey-hydrate-gymbeam.html
 gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works narodeninová torta - 1200 g,GymBeam,EUR,1200.0,34.95,29.125,0.728125,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
 gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works narodeninová torta - 2400 g,GymBeam,EUR,2400.0,62.95,26.229166666666668,0.6557291666666667,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
 gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works jahoda & krém - 600 g,GymBeam,EUR,600.0,19.5,32.5,0.8125,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
 gymbeam,whey_protein,Whey Protein 80 - GoNutrition caffe latte - 1000 g,GymBeam,EUR,1000.0,16.5,16.5,0.4125,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
 gymbeam,whey_protein,Whey Protein 80 - GoNutrition čokoláda banán - 2500 g,GymBeam,EUR,2500.0,31.95,12.78,0.3195,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
 gymbeam,whey_protein,Whey Protein 80 - GoNutrition trojitá čokoláda - 500 g,GymBeam,EUR,500.0,11.95,23.9,0.5975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
-gymbeam,whey_protein,Proteín Clear Whey Hydrate - GymBeam 500 g - zelené jablko,GymBeam,EUR,500.0,28.95,57.9,1.4475,,,,,,in_stock,https://gymbeam.sk/clear-whey-hydrate-gymbeam.html
 gymbeam,whey_protein,ReFuel Whey Protein - GymBeam 1450 g - čokoláda,GymBeam,EUR,1450.0,39.95,27.551724137931036,0.6887931034482758,,,,,,in_stock,https://gymbeam.sk/refuel-whey-protein-gymbeam.html
+gymbeam,whey_protein,Whey + Isolate proteín s enzýmami DigeZyme® – GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,37.95,37.95,0.94875,,,,,,out_of_stock,https://gymbeam.sk/whey-isolate-gymbeam.html
 gymbeam,creatine_monohydrate,Creatine monohydrate+ - GymBeam 400 g - zelené jablko,GymBeam,EUR,400.0,15.95,39.875,0.996875,,,,,,in_stock,https://gymbeam.sk/creatine-performance-gymbeam.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000.0,33.95,33.95,0.84875,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,14.95,49.833333333333336,1.2458333333333333,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
@@ -115,30 +114,30 @@ gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0
 gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,33.95,22.633333333333333,0.5658333333333333,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 500 g - zelené jablko - 01,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 750 g - zelené jablko - 01,GymBeam,EUR,750.0,18.5,24.666666666666668,0.6166666666666667,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,Kreatín monohydrát - Redcon1 300 g,GymBeam,EUR,300.0,13.95,46.5,1.1625,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-redcon1.html
 gymbeam,creatine_monohydrate,Kreatín Pure monohydrát - Bodylab 400 g,GymBeam,EUR,400.0,12.5,31.25,0.78125,,,,,,out_of_stock,https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,500.0,34.99,69.98,1.7495,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,1000.0,65.99,65.99,1.64975,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,2000.0,105.49,52.745,1.318625,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,4000.0,196.99,49.2475,1.2311875,,,,,,out_of_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,500.0,33.99,67.98,1.6995,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,1000.0,64.49,64.49,1.61225,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,2000.0,102.99,51.495,1.287375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,4000.0,193.49,48.3725,1.2093125,,,,,,out_of_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
 protein_works,whey_protein,Clear Diet Whey Protein Protein,The Protein Works,GBP,500.0,23.99,47.98,1.1995,,,,,,in_stock,https://www.theproteinworks.com/clear-diet-whey-protein
 protein_works,whey_protein,Clear Diet Whey Protein Protein,The Protein Works,GBP,1000.0,44.99,44.99,1.12475,,,,,,in_stock,https://www.theproteinworks.com/clear-diet-whey-protein
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,16.49,27.483333333333334,0.6870833333333334,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,18.49,30.816666666666666,0.7704166666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,1200.0,32.49,27.075,0.676875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,58.99,24.579166666666666,0.6144791666666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,58.49,24.370833333333334,0.6092708333333333,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,108.99,22.70625,0.56765625,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,18.49,30.816666666666666,0.7704166666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,17.99,29.983333333333334,0.7495833333333334,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,1200.0,35.99,29.991666666666667,0.7497916666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,66.49,27.704166666666666,0.6926041666666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,65.49,27.2875,0.6821875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,122.99,25.622916666666665,0.6405729166666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
-protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
-protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,1000.0,34.99,34.99,0.87475,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
-protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,2000.0,65.99,32.995,0.824875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
-protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,4000.0,127.99,31.9975,0.7999375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
-protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,600.0,11.49,19.15,0.47875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
-protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,1200.0,21.19,17.658333333333335,0.44145833333333334,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
-protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,2400.0,39.99,16.6625,0.4165625,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
-protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,4800.0,77.49,16.14375,0.40359375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
+protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,500.0,18.99,37.98,0.9495,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
+protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,1000.0,31.99,31.99,0.79975,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
+protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,2000.0,61.99,30.995,0.774875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
+protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,4000.0,119.49,29.8725,0.7468125,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
+protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,600.0,8.99,14.983333333333333,0.3745833333333333,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
+protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,1200.0,19.49,16.241666666666667,0.4060416666666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
+protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,2400.0,37.49,15.620833333333334,0.3905208333333333,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
+protein_works,whey_protein,Whey Protein 360 - Vanilla,The Protein Works,GBP,4800.0,73.49,15.310416666666667,0.38276041666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-black-innovation
