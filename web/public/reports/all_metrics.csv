@@ -31,10 +31,10 @@ bulk,whey_protein,Clear Whey Isolate - Peach Iced Tea 2kg,Bulk,GBP,2000.0,89.99,
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 500g,Bulk,GBP,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 1kg,Bulk,GBP,1000.0,51.99,51.99,1.29975,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
 bulk,whey_protein,Hydrolysed Whey Protein Isolate - Unflavoured 2.5kg,Bulk,GBP,2500.0,124.99,49.996,1.2499,,,,,,in_stock,https://www.bulk.com/uk/products/hydrolysed-whey-protein-isolate/bpb-hwpi-0000
-bulk,whey_protein,Diet Whey Protein - Chocolate 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
-bulk,whey_protein,Diet Whey Protein - Chocolate 1kg,Bulk,GBP,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
 bulk,whey_protein,Basic Whey Protein - Vanilla 1.25kg,Bulk,GBP,1250.0,16.99,13.592,0.3398,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
 bulk,whey_protein,Basic Whey Protein - Strawberry 2.5kg,Bulk,GBP,2500.0,32.99,13.196,0.3299,,,,,,in_stock,https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe
+bulk,whey_protein,Diet Whey Protein - Chocolate 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
+bulk,whey_protein,Diet Whey Protein - Chocolate 1kg,Bulk,GBP,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://www.bulk.com/uk/products/diet-whey-protein/bble-dwpr
 bulk,whey_protein,Whey Protein Coffee - Iced Caramel Latte 500g,Bulk,GBP,500.0,14.99,29.98,0.7495,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
 bulk,whey_protein,Whey Protein Coffee - Iced Latte 1kg,Bulk,GBP,1000.0,27.99,27.99,0.69975,,,,,,in_stock,https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico
 bulk,whey_protein,Clear Whey All In One - Apple & Blackcurrant 500g,Bulk,GBP,500.0,19.99,39.98,0.9995,,,,,,in_stock,https://www.bulk.com/uk/products/clear-all-in-one/bble-cwa1
@@ -84,11 +84,11 @@ gymbeam,whey_protein,Proteín 100% Premium Whey Isolate Plus 1360 g - MuscleTech
 gymbeam,whey_protein,Clear Whey - Ghost 640 g - modrá malina,GymBeam,EUR,640.0,46.95,73.359375,1.833984375,,,,,,in_stock,https://gymbeam.sk/clear-whey-ghost.html
 gymbeam,whey_protein,Protein Gold Whey - Weider 500 g - jahoda,GymBeam,EUR,500.0,19.95,39.9,0.9975,,,,,,out_of_stock,https://gymbeam.sk/protein-gold-whey-weider.html
 gymbeam,whey_protein,BIO Whey Protein - GymBeam 900 g - kakao,GymBeam,EUR,900.0,45.95,51.05555555555556,1.2763888888888888,,,,,,in_stock,https://gymbeam.sk/bio-whey-protein-gymbeam.html
-gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,37.95,37.95,0.94875,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
-gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 2000 g - bez príchute - 01,GymBeam,EUR,2000.0,67.95,33.975,0.849375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
+gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
+gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 2000 g - bez príchute - 01,GymBeam,EUR,2000.0,69.95,34.975,0.874375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
 gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 500 g - banán - 01,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
-gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 1000 g - čokoláda lieskový oriešok,GymBeam,EUR,1000.0,37.95,37.95,0.94875,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
-gymbeam,whey_protein,Proteín Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
+gymbeam,whey_protein,Yum Yum Whey - BeastPink 1000 g - čokoláda lieskový oriešok,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
+gymbeam,whey_protein,Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
 gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
 gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 3000 g - čokoláda,GymBeam,EUR,3000.0,93.95,31.316666666666666,0.7829166666666667,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
 gymbeam,whey_protein,Whey Proteín - GYMQUEEN banán - 500 g,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-gymqueen.html
@@ -112,7 +112,7 @@ gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,14.95,49.833333333333336,1.2458333333333333,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,33.95,22.633333333333333,0.5658333333333333,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 500 g - zelené jablko - 01,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
@@ -125,14 +125,14 @@ protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,2000.
 protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,4000.0,193.49,48.3725,1.2093125,,,,,,out_of_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
 protein_works,whey_protein,Clear Diet Whey Protein Protein,The Protein Works,GBP,500.0,23.99,47.98,1.1995,,,,,,in_stock,https://www.theproteinworks.com/clear-diet-whey-protein
 protein_works,whey_protein,Clear Diet Whey Protein Protein,The Protein Works,GBP,1000.0,44.99,44.99,1.12475,,,,,,in_stock,https://www.theproteinworks.com/clear-diet-whey-protein
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,20.99,34.983333333333334,0.8745833333333334,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,20.49,34.15,0.85375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,1200.0,35.99,29.991666666666667,0.7497916666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,65.49,27.2875,0.6821875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,122.99,25.622916666666665,0.6405729166666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,18.49,30.816666666666666,0.7704166666666666,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,62.49,26.0375,0.6509375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,116.49,24.26875,0.60671875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360-extreme
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,600.0,17.99,29.983333333333334,0.7495833333333334,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
 protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,1200.0,32.49,27.075,0.676875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,58.49,24.370833333333334,0.6092708333333333,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
-protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,108.99,22.70625,0.56765625,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,2400.0,55.99,23.329166666666666,0.5832291666666667,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
+protein_works,whey_protein,Whey Protein 360,The Protein Works,GBP,4800.0,103.99,21.664583333333333,0.5416145833333333,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-360
 protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,500.0,18.99,37.98,0.9495,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
 protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,1000.0,31.99,31.99,0.79975,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
 protein_works,whey_protein,Whey Protein 80,The Protein Works,GBP,2000.0,61.99,30.995,0.774875,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-80-concentrate
