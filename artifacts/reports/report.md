@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-09-28 08:55:00 UTC_
+_Generated: 2026-09-29 08:57:16 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
