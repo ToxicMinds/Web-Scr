@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T08:55:51.923279+00:00",
+  "generated_at": "2026-10-01T09:20:49.437947+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "977a1b65-06a8-417f-8192-336bb5ccd375",
+    "id": "1ef60fd0-6e86-4f3b-a276-bc93a1269b22",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "113c4e6e-0070-4a05-b04f-49c8ac6e09df",
+              "id": "70df0754-ab54-4720-9925-ed6134332a1e",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Strawberry 2.5kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-30T08:55:41.194783Z"
+              "scraped_at": "2026-10-01T09:20:07.053224Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "160fc5bb-fbdd-41b6-a7fd-51f880f600ef",
+              "id": "7d99ef90-967b-4e61-9bce-feddb82b7934",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-09-30T08:55:36.899311Z"
+              "scraped_at": "2026-10-01T09:20:02.330635Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -114,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-09-30T08:55:51.921278Z"
+    "created_at": "2026-10-01T09:20:49.434848Z"
   },
   "retailer_rankings": [
     {
@@ -128,7 +128,7 @@
       "retailer": "GymBeam",
       "slug": "gymbeam",
       "feasible": true,
-      "total_eur": 171.71,
+      "total_eur": 172.66,
       "shipping_confidence": "determined"
     },
     {

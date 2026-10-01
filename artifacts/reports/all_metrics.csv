@@ -47,7 +47,7 @@ bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 500
 bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 1kg,Bulk,GBP,1000.0,79.99,79.99,1.99975,,,,,,out_of_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
 gymbeam,whey_protein,Proteín True Whey - GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,in_stock,https://gymbeam.sk/true-whey-gymbeam.html
 gymbeam,whey_protein,Proteín True Whey - GymBeam 2500 g - bez príchute - 01,GymBeam,EUR,2500.0,84.95,33.98,0.8495,,,,,,in_stock,https://gymbeam.sk/true-whey-gymbeam.html
-gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 2000 g - banán,GymBeam,EUR,2000.0,93.95,46.975,1.174375,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
+gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 2000 g - banán,GymBeam,EUR,2000.0,96.95,48.475,1.211875,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
 gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 900 g - banán,GymBeam,EUR,900.0,47.95,53.27777777777778,1.3319444444444444,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
 gymbeam,whey_protein,Clear Whey Protein - BeastPink 500 g - citrón-limetka,GymBeam,EUR,500.0,33.95,67.9,1.6975,,,,,,in_stock,https://gymbeam.sk/cisty-srvatkovy-protein-beastpink-gymbeam.html
 gymbeam,whey_protein,Proteín Pure IsoWhey - GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,45.95,45.95,1.14875,,,,,,in_stock,https://gymbeam.sk/pure-isowhey-gymbeam.html
@@ -84,7 +84,7 @@ gymbeam,whey_protein,Clear Whey - Ghost 640 g - modrá malina,GymBeam,EUR,640.0,
 gymbeam,whey_protein,Protein Gold Whey - Weider 500 g - jahoda,GymBeam,EUR,500.0,19.95,39.9,0.9975,,,,,,out_of_stock,https://gymbeam.sk/protein-gold-whey-weider.html
 gymbeam,whey_protein,BIO Whey Protein - GymBeam 900 g - kakao,GymBeam,EUR,900.0,47.95,53.27777777777778,1.3319444444444444,,,,,,in_stock,https://gymbeam.sk/bio-whey-protein-gymbeam.html
 gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
-gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 2000 g - bez príchute - 01,GymBeam,EUR,2000.0,69.95,34.975,0.874375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
+gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 2000 g - bez príchute - 01,GymBeam,EUR,2000.0,71.95,35.975,0.899375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
 gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 500 g - banán - 01,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
 gymbeam,whey_protein,Yum Yum Whey - BeastPink 1000 g - čokoláda lieskový oriešok,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
 gymbeam,whey_protein,Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/yum-yum-whey-beastpink-darceky.html
@@ -107,15 +107,12 @@ gymbeam,whey_protein,Proteín Clear Whey Hydrate - GymBeam 500 g - zelené jablk
 gymbeam,whey_protein,ReFuel Whey Protein - GymBeam 1450 g - čokoláda,GymBeam,EUR,1450.0,40.95,28.24137931034483,0.7060344827586207,,,,,,in_stock,https://gymbeam.sk/refuel-whey-protein-gymbeam.html
 gymbeam,whey_protein,Whey + Isolate proteín s enzýmami DigeZyme® – GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,out_of_stock,https://gymbeam.sk/whey-isolate-gymbeam.html
 gymbeam,creatine_monohydrate,Creatine monohydrate+ - GymBeam 400 g - zelené jablko,GymBeam,EUR,400.0,15.95,39.875,0.996875,,,,,,in_stock,https://gymbeam.sk/creatine-performance-gymbeam.html
-gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000.0,33.95,33.95,0.84875,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
-gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,14.95,49.833333333333336,1.2458333333333333,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
-gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,33.95,22.633333333333333,0.5658333333333333,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - mango marakuja - 00,GymBeam,EUR,1000.0,23.95,23.95,0.59875,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,34.95,23.3,0.5825,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 500 g - zelené jablko - 01,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
-gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 750 g - zelené jablko - 01,GymBeam,EUR,750.0,18.5,24.666666666666668,0.6166666666666667,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
+gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 750 g - zelené jablko - 01,GymBeam,EUR,750.0,18.95,25.266666666666666,0.6316666666666667,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,Kreatín monohydrát - Redcon1 300 g,GymBeam,EUR,300.0,13.95,46.5,1.1625,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-redcon1.html
 gymbeam,creatine_monohydrate,Kreatín Pure monohydrát - Bodylab 400 g,GymBeam,EUR,400.0,12.5,31.25,0.78125,,,,,,out_of_stock,https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html
 protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,500.0,33.99,67.98,1.6995,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
