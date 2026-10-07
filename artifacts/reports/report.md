@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-10-06 09:18:25 UTC_
+_Generated: 2026-10-07 09:09:08 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -33,7 +33,7 @@ _No data._
 | retailer | title | price | pack_content_g | price_per_kg | url |
 | --- | --- | --- | --- | --- | --- |
 | gymbeam | 100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01 | 34.95 | 1500 | 23.3 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
-| gymbeam | 100 % Kreatín monohydrát - GymBeam 1000 g - mango marakuja - 00 | 23.95 | 1000 | 23.95 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
+| gymbeam | 100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01 | 24.95 | 1000 | 24.95 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 1kg | 24.99 | 1000 | 24.99 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | gymbeam | 100 % Kreatín monohydrát - GymBeam 750 g - zelené jablko - 01 | 18.95 | 750 | 25.267 | https://gymbeam.sk/kreatin-monohydrate-gymbeam.html |
 | gymbeam | Creatine Monohydrate - GoNutrition bez príchute - 500 g | 12.95 | 500 | 25.9 | https://gymbeam.sk/creatine-monohydrate-gonutrition.html |
