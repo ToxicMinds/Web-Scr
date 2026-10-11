@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-10-10 08:52:21 UTC_
+_Generated: 2026-10-11 09:13:27 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -20,7 +20,7 @@ _Fulfilled: whey_protein: 5000.0 g, creatine_monohydrate: 2000 g_
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
 | Bulk | bulk | True | 143.48 | determined |
-| GymBeam | gymbeam | True | 172.66 | determined |
+| GymBeam | gymbeam | True | 190.71 | determined |
 | Aktin | aktin | False |  |  |
 | The Protein Works | protein_works | False |  |  |
 
