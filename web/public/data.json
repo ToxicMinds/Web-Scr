@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-19T08:02:43.757836+00:00",
+  "generated_at": "2026-10-20T07:53:14.640180+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "decff698-8fb9-4050-b1d5-e244ea73360a",
+    "id": "e0412afe-4b59-4142-9737-04cd65d7250d",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "37e5240e-d1ca-44f0-a7f0-28efa743b78e",
+              "id": "7fda34fa-7049-4f1d-af40-5464c9a2c092",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Basic Whey Protein - Vanilla 1.25kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-10-19T08:02:37.102275Z"
+              "scraped_at": "2026-10-20T07:53:06.382515Z"
             },
             "quantity": 4,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "ace31da7-b72c-4119-87de-b6bab7b20a40",
+              "id": "f4578920-a2a1-4fed-a17f-6cf2304a995f",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-10-19T08:02:32.561405Z"
+              "scraped_at": "2026-10-20T07:53:01.883739Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -114,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-10-19T08:02:43.754942Z"
+    "created_at": "2026-10-20T07:53:14.636750Z"
   },
   "retailer_rankings": [
     {
@@ -128,7 +128,7 @@
       "retailer": "GymBeam",
       "slug": "gymbeam",
       "feasible": true,
-      "total_eur": 190.71,
+      "total_eur": 172.66,
       "shipping_confidence": "determined"
     },
     {
