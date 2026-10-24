@@ -24,10 +24,10 @@ bulk,whey_protein,Pure Whey Protein+ - Vanilla 900g,Bulk,GBP,900.0,28.99,32.2111
 bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,23.49,46.98,1.1745,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
 bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 1kg,Bulk,GBP,1000.0,39.99,39.99,0.99975,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
 bulk,whey_protein,Organic Pure Whey Protein™ - Unflavoured 2.5kg,Bulk,GBP,2500.0,91.99,36.796,0.9199,,,,,,out_of_stock,https://www.bulk.com/uk/products/organic-pure-whey-protein/bpb-owpc
-bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 500g,Bulk,GBP,500.0,25.99,51.98,1.2995,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
+bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 500g,Bulk,GBP,500.0,26.99,53.98,1.3495,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Clear Whey Isolate - Strawberry & Watermelon 1kg,Bulk,GBP,1000.0,49.99,49.99,1.24975,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Clear Whey Isolate - Apple & Blackcurrant 2kg,Bulk,GBP,2000.0,94.99,47.495,1.187375,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
-bulk,whey_protein,Clear Whey Isolate - Cherry Bomb 1.6kg,Bulk,GBP,1600.0,84.99,53.11875,1.32796875,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
+bulk,whey_protein,Clear Whey Isolate - Cherry Bomb 1.6kg,Bulk,GBP,1600.0,78.99,49.36875,1.23421875,,,,,,in_stock,https://www.bulk.com/uk/products/clear-whey-isolate/bpb-cwhe
 bulk,whey_protein,Daily Whey Protein - Banana 4kg,Bulk,GBP,4000.0,77.99,19.4975,0.4874375,,,,,,in_stock,https://www.bulk.com/uk/products/daily-whey/bpb-dwhe
 bulk,whey_protein,Daily Whey Protein - Banana 900g,Bulk,GBP,900.0,19.99,22.211111111111112,0.5552777777777778,,,,,,in_stock,https://www.bulk.com/uk/products/daily-whey/bpb-dwhe
 bulk,whey_protein,Daily Whey Protein - Banana 2kg,Bulk,GBP,2000.0,39.99,19.995,0.499875,,,,,,in_stock,https://www.bulk.com/uk/products/daily-whey/bpb-dwhe
@@ -114,8 +114,8 @@ gymbeam,creatine_monohydrate,Creatine monohydrate+ - GymBeam 400 g - zelené jab
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000.0,33.95,33.95,0.84875,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,11.95,39.833333333333336,0.9958333333333333,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
-gymbeam,creatine_monohydrate,Kreatín monohydrát Creapure® - GymBeam 500 g - citrón-limetka,GymBeam,EUR,500.0,25.95,51.9,1.2975,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-creapurer-gymbeam.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
+gymbeam,creatine_monohydrate,Kreatín monohydrát Creapure® - GymBeam 500 g - pomaranč,GymBeam,EUR,500.0,25.95,51.9,1.2975,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrat-creapurer-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1000 g - zelené jablko - 01,GymBeam,EUR,1000.0,24.95,24.95,0.62375,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 1500 g - zelené jablko - 01,GymBeam,EUR,1500.0,34.95,23.3,0.5825,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 250 g - zelené jablko - 01,GymBeam,EUR,250.0,7.5,30.0,0.75,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
@@ -123,8 +123,8 @@ gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 500 g - zelen�
 gymbeam,creatine_monohydrate,100 % Kreatín monohydrát - GymBeam 750 g - zelené jablko - 01,GymBeam,EUR,750.0,18.95,25.266666666666666,0.6316666666666667,,,,,,in_stock,https://gymbeam.sk/kreatin-monohydrate-gymbeam.html
 gymbeam,creatine_monohydrate,Kreatín monohydrát - Redcon1 300 g,GymBeam,EUR,300.0,13.95,46.5,1.1625,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-redcon1.html
 gymbeam,creatine_monohydrate,Kreatín Pure monohydrát - Bodylab 400 g,GymBeam,EUR,400.0,12.5,31.25,0.78125,,,,,,out_of_stock,https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,500.0,23.99,47.98,1.1995,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
-protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,1000.0,46.49,46.49,1.16225,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,500.0,27.99,55.98,1.3995,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
+protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,1000.0,46.99,46.99,1.17475,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
 protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,2000.0,88.99,44.495,1.112375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
 protein_works,whey_protein,Diet Whey Protein Isolate,The Protein Works,GBP,4000.0,165.99,41.4975,1.0374375,,,,,,in_stock,https://www.theproteinworks.com/whey-protein-90-isolate-january
 protein_works,whey_protein,Clear Diet Whey Protein Protein,The Protein Works,GBP,500.0,23.99,47.98,1.1995,,,,,,in_stock,https://www.theproteinworks.com/clear-diet-whey-protein
