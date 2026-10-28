@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-27T08:18:17.338998+00:00",
+  "generated_at": "2026-10-28T08:55:26.166988+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "5552db71-40ce-4f64-a310-4dd9105e6f02",
+    "id": "2f2dd6e3-aeb1-4950-8337-03635fe5d7bb",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,15 +12,15 @@
         "lines": [
           {
             "offer": {
-              "id": "51b3d9f3-4806-4167-8bac-6e326edde879",
+              "id": "0b058f4f-1299-4c72-bd8d-191d3447aea5",
               "retailer_slug": "bulk",
               "category": "whey_protein",
-              "title": "Basic Whey Protein - Vanilla 1.25kg",
+              "title": "Basic Whey Protein - Strawberry 2.5kg",
               "brand": "Bulk",
               "url": "https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe",
-              "pack_content_g": "1250.00",
+              "pack_content_g": "2500.0",
               "price": {
-                "amount": "22.34",
+                "amount": "42.34",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -29,27 +29,27 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "Vanilla"
+                "Strawberry"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-10-27T08:18:07.919253Z"
+              "scraped_at": "2026-10-28T08:55:18.557371Z"
             },
-            "quantity": 4,
+            "quantity": 2,
             "unit_price": {
-              "amount": "22.34",
+              "amount": "42.34",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "89.36",
+              "amount": "84.68",
               "currency": "EUR"
             },
-            "content_g": "5000.00"
+            "content_g": "5000.0"
           },
           {
             "offer": {
-              "id": "7b8f28cb-4209-43ca-a1d8-f401e1c0575d",
+              "id": "2158441f-aafd-4264-a1c0-10be0b38f4cc",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-10-27T08:18:01.953175Z"
+              "scraped_at": "2026-10-28T08:55:12.358229Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -86,7 +86,7 @@
           }
         ],
         "product_subtotal": {
-          "amount": "148.16",
+          "amount": "143.48",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -100,28 +100,28 @@
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "148.16",
+          "amount": "143.48",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "148.16",
+      "amount": "143.48",
       "currency": "EUR"
     },
     "fulfilled_g": {
-      "whey_protein": "5000.00",
+      "whey_protein": "5000.0",
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-10-27T08:18:17.336119Z"
+    "created_at": "2026-10-28T08:55:26.163825Z"
   },
   "retailer_rankings": [
     {
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 148.16,
+      "total_eur": 143.48,
       "shipping_confidence": "determined"
     },
     {
