@@ -1,25 +1,25 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-10-28 08:55:26 UTC_
+_Generated: 2026-10-29 08:49:36 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
 
-- **Total: 143.48 EUR**  
+- **Total: 148.16 EUR**  
 - Strategy: single_retailer  
 - Shipping confidence: determined  
 
-### bulk — 143.48 EUR (goods 143.48 EUR, shipping 0.00 EUR)
-- 2 × Basic Whey Protein - Strawberry 2.5kg @ 42.34 EUR = 84.68 EUR ([link](https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe))
+### bulk — 148.16 EUR (goods 148.16 EUR, shipping 0.00 EUR)
+- 4 × Basic Whey Protein - Vanilla 1.25kg @ 22.34 EUR = 89.36 EUR ([link](https://www.bulk.com/uk/products/basic-whey-protein/bpb-vwhe))
 - 2 × Creatine Monohydrate Powder - Unflavoured 1kg @ 29.40 EUR = 58.80 EUR ([link](https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000))
 
-_Fulfilled: whey_protein: 5000.0 g, creatine_monohydrate: 2000 g_
+_Fulfilled: whey_protein: 5000.00 g, creatine_monohydrate: 2000 g_
 
 ## Retailer Rankings (whole basket, single retailer)
 
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
-| Bulk | bulk | True | 143.48 | determined |
+| Bulk | bulk | True | 148.16 | determined |
 | GymBeam | gymbeam | True | 172.66 | determined |
 | Aktin | aktin | False |  |  |
 | The Protein Works | protein_works | False |  |  |
