@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-11-07 09:07:40 UTC_
+_Generated: 2026-11-08 09:24:18 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -22,7 +22,7 @@ _Fulfilled: whey_protein: 5000.0 g, creatine_monohydrate: 2000 g_
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
 | Bulk | bulk | True | 143.48 | determined |
-| GymBeam | gymbeam | True | 158.51 | determined |
+| GymBeam | gymbeam | True | 152.76 | determined |
 | Aktin | aktin | False |  |  |
 | The Protein Works | protein_works | False |  |  |
 
@@ -50,7 +50,7 @@ _No data._
 | gymbeam | Creatine Monohydrate - Amix 300 g | 12.5 | 300 | 41.667 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | gymbeam | Kreatín monohydrát - Redcon1 300 g | 13.95 | 300 | 46.5 | https://gymbeam.sk/kreatin-monohydrat-redcon1.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 100g | 4.99 | 100 | 49.9 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
-| gymbeam | Kreatín monohydrát - GymBeam 500 g - mango-marakuja | 24.95 | 500 | 49.9 | https://gymbeam.sk/creatine-monohydrate-gymbeam-124299.html |
+| gymbeam | Kreatín monohydrát - GymBeam 500 g - zelené jablko | 24.95 | 500 | 49.9 | https://gymbeam.sk/creatine-monohydrate-gymbeam-124299.html |
 | gymbeam | Kreatín monohydrát Creapure® - GymBeam 500 g - pomaranč | 25.95 | 500 | 51.9 | https://gymbeam.sk/kreatin-monohydrat-creapurer-gymbeam.html |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 1kg | 79.99 | 1000 | 79.99 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 500g | 41.99 | 500 | 83.98 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
