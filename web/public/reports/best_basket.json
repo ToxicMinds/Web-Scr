@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T09:46:27.710346+00:00",
+  "generated_at": "2026-11-12T10:08:41.571369+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "1d1fb615-a9e1-499d-99cd-5db6d8474a20",
+    "id": "35f2e213-cefc-49ca-9d20-0a3e32a47a7d",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "f89b0474-9c4d-472d-90c0-8eda22223dc6",
+              "id": "f643a97e-5286-4591-82fd-fad141768878",
               "retailer_slug": "gymbeam",
               "category": "whey_protein",
               "title": "Protein Anabolic Whey - GymBeam 2500 g - \u010dokol\u00e1da",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-11T09:46:25.070111Z"
+              "scraped_at": "2026-11-12T10:08:35.891834Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "d2b37c2e-bab9-4bb5-a6cd-15c1a08368ec",
+              "id": "6fcf9c60-cc09-449a-bdc4-c90e29b7b847",
               "retailer_slug": "gymbeam",
               "category": "creatine_monohydrate",
               "title": "100 % Kreat\u00edn monohydr\u00e1t - GymBeam 1000 g - zelen\u00e9 jablko - 01",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-11T09:46:15.076996Z"
+              "scraped_at": "2026-11-12T10:08:27.903433Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -114,7 +114,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-11-11T09:46:27.708279Z"
+    "created_at": "2026-11-12T10:08:41.569116Z"
   },
   "retailer_rankings": [
     {
@@ -128,7 +128,7 @@
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 143.48,
+      "total_eur": 189.36,
       "shipping_confidence": "determined"
     },
     {
