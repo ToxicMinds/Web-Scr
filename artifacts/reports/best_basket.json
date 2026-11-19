@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-18T10:35:33.157042+00:00",
+  "generated_at": "2026-11-19T10:41:06.053699+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "5b9d84f6-b154-4ee5-9ea5-a31828ec0bff",
-    "strategy": "multi_retailer",
+    "id": "0479c134-4704-4f33-9496-785449d9e166",
+    "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
       {
-        "retailer_slug": "gymbeam",
+        "retailer_slug": "bulk",
         "lines": [
           {
             "offer": {
-              "id": "bec8c950-73d7-4752-aab5-e8904605a154",
-              "retailer_slug": "gymbeam",
-              "category": "creatine_monohydrate",
-              "title": "100 % Kreat\u00edn monohydr\u00e1t - GymBeam 1500 g - zelen\u00e9 jablko - 01",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/kreatin-monohydrate-gymbeam.html",
-              "pack_content_g": "1500",
+              "id": "ced94096-a345-4f8c-a1b0-8bf62d7695a4",
+              "retailer_slug": "bulk",
+              "category": "whey_protein",
+              "title": "Daily Whey Protein - Banana 4kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/daily-whey/bpb-dwhe",
+              "pack_content_g": "4000",
               "price": {
-                "amount": "34.95",
+                "amount": "87.05",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -29,35 +29,35 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "zelen\u00e9 jablko"
+                "Banana"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-18T10:35:22.180733Z"
+              "scraped_at": "2026-11-19T10:40:58.427742Z"
             },
             "quantity": 1,
             "unit_price": {
-              "amount": "34.95",
+              "amount": "87.05",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "34.95",
+              "amount": "87.05",
               "currency": "EUR"
             },
-            "content_g": "1500"
+            "content_g": "4000"
           },
           {
             "offer": {
-              "id": "8b8981cf-3338-48e6-95c0-9597d9b15837",
-              "retailer_slug": "gymbeam",
-              "category": "creatine_monohydrate",
-              "title": "100 % Kreat\u00edn monohydr\u00e1t - GymBeam 500 g - zelen\u00e9 jablko - 01",
-              "brand": "GymBeam",
-              "url": "https://gymbeam.sk/kreatin-monohydrate-gymbeam.html",
-              "pack_content_g": "500",
+              "id": "803f1f51-60d0-43c8-94a6-3f4ca0517ec1",
+              "retailer_slug": "bulk",
+              "category": "whey_protein",
+              "title": "Whey Protein Coffee - Iced Latte 1kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico",
+              "pack_content_g": "1000",
               "price": {
-                "amount": "12.95",
+                "amount": "32.93",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -66,27 +66,64 @@
               "serving_size_g": null,
               "protein_per_serving_g": null,
               "flavours": [
-                "zelen\u00e9 jablko"
+                "Iced Latte"
               ],
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-18T10:35:22.180836Z"
+              "scraped_at": "2026-11-19T10:40:58.428573Z"
             },
             "quantity": 1,
             "unit_price": {
-              "amount": "12.95",
+              "amount": "32.93",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "12.95",
+              "amount": "32.93",
               "currency": "EUR"
             },
-            "content_g": "500"
+            "content_g": "1000"
+          },
+          {
+            "offer": {
+              "id": "66fcf720-dbec-4b76-8b87-516b494d1bb1",
+              "retailer_slug": "bulk",
+              "category": "creatine_monohydrate",
+              "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000",
+              "pack_content_g": "1000",
+              "price": {
+                "amount": "22.93",
+                "currency": "EUR"
+              },
+              "quantity_breaks": [],
+              "availability": "in_stock",
+              "protein_pct": null,
+              "serving_size_g": null,
+              "protein_per_serving_g": null,
+              "flavours": [
+                "Unflavoured"
+              ],
+              "creatine_form": null,
+              "attributes": {},
+              "ships_to": null,
+              "scraped_at": "2026-11-19T10:40:52.785512Z"
+            },
+            "quantity": 2,
+            "unit_price": {
+              "amount": "22.93",
+              "currency": "EUR"
+            },
+            "line_total": {
+              "amount": "45.86",
+              "currency": "EUR"
+            },
+            "content_g": "2000"
           }
         ],
         "product_subtotal": {
-          "amount": "47.90",
+          "amount": "165.84",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -95,137 +132,40 @@
           "currency": "EUR"
         },
         "shipping_cost": {
-          "amount": "3.49",
-          "currency": "EUR"
-        },
-        "shipping_confidence": "determined",
-        "total": {
-          "amount": "51.39",
-          "currency": "EUR"
-        }
-      },
-      {
-        "retailer_slug": "protein_works",
-        "lines": [
-          {
-            "offer": {
-              "id": "7c29b9f5-8973-4ddc-9937-86e54cb4c9da",
-              "retailer_slug": "protein_works",
-              "category": "whey_protein",
-              "title": "Whey Protein 360 - Vanilla",
-              "brand": "The Protein Works",
-              "url": "https://www.theproteinworks.com/whey-protein-360-black-innovation",
-              "pack_content_g": "600",
-              "price": {
-                "amount": "13.52",
-                "currency": "EUR"
-              },
-              "quantity_breaks": [],
-              "availability": "in_stock",
-              "protein_pct": null,
-              "serving_size_g": null,
-              "protein_per_serving_g": null,
-              "flavours": [
-                "Vanilla Cr\u00e8me"
-              ],
-              "creatine_form": null,
-              "attributes": {},
-              "ships_to": null,
-              "scraped_at": "2026-11-18T10:35:21.695467Z"
-            },
-            "quantity": 1,
-            "unit_price": {
-              "amount": "13.52",
-              "currency": "EUR"
-            },
-            "line_total": {
-              "amount": "13.52",
-              "currency": "EUR"
-            },
-            "content_g": "600"
-          },
-          {
-            "offer": {
-              "id": "3a729827-31ba-4f04-9b75-01414ce56f75",
-              "retailer_slug": "protein_works",
-              "category": "whey_protein",
-              "title": "Whey Protein 360 - Vanilla",
-              "brand": "The Protein Works",
-              "url": "https://www.theproteinworks.com/whey-protein-360-black-innovation",
-              "pack_content_g": "4800.0",
-              "price": {
-                "amount": "94.69",
-                "currency": "EUR"
-              },
-              "quantity_breaks": [],
-              "availability": "in_stock",
-              "protein_pct": null,
-              "serving_size_g": null,
-              "protein_per_serving_g": null,
-              "flavours": [
-                "Vanilla Cr\u00e8me"
-              ],
-              "creatine_form": null,
-              "attributes": {},
-              "ships_to": null,
-              "scraped_at": "2026-11-18T10:35:21.695651Z"
-            },
-            "quantity": 1,
-            "unit_price": {
-              "amount": "94.69",
-              "currency": "EUR"
-            },
-            "line_total": {
-              "amount": "94.69",
-              "currency": "EUR"
-            },
-            "content_g": "4800.0"
-          }
-        ],
-        "product_subtotal": {
-          "amount": "108.21",
-          "currency": "EUR"
-        },
-        "coupon_code": null,
-        "coupon_discount": {
           "amount": "0.00",
           "currency": "EUR"
         },
-        "shipping_cost": {
-          "amount": "9.40",
-          "currency": "EUR"
-        },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "117.61",
+          "amount": "165.84",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "169.00",
+      "amount": "165.84",
       "currency": "EUR"
     },
     "fulfilled_g": {
-      "creatine_monohydrate": "2000",
-      "whey_protein": "5400.0"
+      "whey_protein": "5000",
+      "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-11-18T10:35:33.154021Z"
+    "created_at": "2026-11-19T10:41:06.051273Z"
   },
   "retailer_rankings": [
+    {
+      "retailer": "Bulk",
+      "slug": "bulk",
+      "feasible": true,
+      "total_eur": 165.84,
+      "shipping_confidence": "determined"
+    },
     {
       "retailer": "GymBeam",
       "slug": "gymbeam",
       "feasible": true,
       "total_eur": 172.66,
-      "shipping_confidence": "determined"
-    },
-    {
-      "retailer": "Bulk",
-      "slug": "bulk",
-      "feasible": true,
-      "total_eur": 189.36,
       "shipping_confidence": "determined"
     },
     {
