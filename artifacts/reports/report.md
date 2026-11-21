@@ -1,6 +1,6 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-11-20 10:21:38 UTC_
+_Generated: 2026-11-21 10:06:03 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
@@ -21,7 +21,7 @@ _Fulfilled: whey_protein: 5000 g, creatine_monohydrate: 2000 g_
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
 | Bulk | bulk | True | 165.84 | determined |
-| GymBeam | gymbeam | True | 191.66 | determined |
+| GymBeam | gymbeam | True | 191.23 | determined |
 | Aktin | aktin | False |  |  |
 | The Protein Works | protein_works | False |  |  |
 
@@ -44,7 +44,6 @@ _No data._
 | bulk | Creatine Monohydrate Powder - Unflavoured 100g | 3.99 | 100 | 39.9 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | gymbeam | Creatine Monohydrate - Amix 300 g | 12.5 | 300 | 41.667 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | gymbeam | Kreatín monohydrát - Redcon1 300 g | 13.95 | 300 | 46.5 | https://gymbeam.sk/kreatin-monohydrat-redcon1.html |
-| gymbeam | Kreatín monohydrát Creapure® - GymBeam 500 g - pomaranč | 25.95 | 500 | 51.9 | https://gymbeam.sk/kreatin-monohydrat-creapurer-gymbeam.html |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 1kg | 79.99 | 1000 | 79.99 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 500g | 41.99 | 500 | 83.98 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 100g | 10.99 | 100 | 109.9 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
