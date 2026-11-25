@@ -1,8 +1,45 @@
 retailer,category,title,brand,currency,pack_content_g,price,price_per_kg,price_per_reference_serving,price_per_100g_protein,protein_grams_per_currency,cost_per_serving,cost_per_month,cost_per_year,availability,url
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,29.99,29.99,0.74975,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,72.99,29.196,0.7299,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,139.99,27.998,0.69995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
-bulk,whey_protein,Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,17.99,35.98,0.8995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/bourbon-vanilka-1-000-g-47599
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,33.99,33.99,0.84975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/karamelove-macchiato-1-000-g-47726
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/skoricova-rolka-1-000-g-47723
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/jahoda-1-000-g-47593
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/bez-prichute-1-000-g-47600
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,31.99,31.99,0.79975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/cokolada-1-000-g-32051
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/biela-cokolada-a-kokos-1-000-g-45777
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/jahodovy-milkshake-1-000-g-34889
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,31.99,31.99,0.79975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/skoricova-rolka-1-000-g-34890
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,2000.0,69.99,34.995,0.874875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/vanilka-2-000-g-33422
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,2000.0,69.99,34.995,0.874875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/skoricova-rolka-2-000-g-34918
+aktin,whey_protein,Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,2000.0,69.99,34.995,0.874875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/cokolada-2-000-g-33424
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/bez-prichute-1-000-g-33575
+aktin,whey_protein,Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/cokolada-1-000-g-44471
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,500.0,16.99,33.98,0.8495,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/cokoladove-brownie-500-g-47720
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,300.0,12.99,43.3,1.0825,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/cokolada-300-g-10-x-30g-46005
+aktin,whey_protein,Grass‑fed Whey Protein 73,,EUR,500.0,16.99,33.98,0.8495,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-73/bourbon-vanilka-500-g-47719
+aktin,whey_protein,Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/vanilka-1-000-g-44470
+aktin,whey_protein,Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/bez-prichute-1-000-g-44904
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,2000.0,69.99,34.995,0.874875,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/bez-prichute-2-000-g-33576
+aktin,whey_protein,Grass‑Fed Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein/pistacie-1-000-g-45209
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/peach-fuzz-500-g-43909
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/lemon-ice-tea-500-g-46079
+aktin,whey_protein,Whey Protein,,EUR,1000.0,37.99,37.99,0.94975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/skoricove-lupienky-1-000-g-44472
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/lemon-splash-500-g-42560
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,34.99,69.98,1.7495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/pink-grapefruit-500-g-44796
+aktin,whey_protein,Clear Whey Isolate,,EUR,500.0,20.99,41.98,1.0495,,,,,,in_stock,https://aktin.sk/vilgain-clear-whey-isolate/zlty-melon-s-mangom-500-g-45988
+aktin,whey_protein,Grass‑Fed Whey Protein Isolate,,EUR,1000.0,54.99,54.99,1.37475,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate
+aktin,whey_protein,Grass‑Fed Whey Protein Isolate,,EUR,1000.0,54.99,54.99,1.37475,,,,,,in_stock,https://aktin.sk/vilgain-grass-fed-whey-protein-isolate/vanilka-1-000-g-41892
+aktin,whey_protein,Whey Protein,,EUR,1000.0,39.99,39.99,0.99975,,,,,,in_stock,https://aktin.sk/vilgain-whey-protein-2/biela-cokolada-1-000-g-45346
+aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,16.99,33.98,0.8495,,,,,,in_stock,https://aktin.sk/vilgain-kreatin
+aktin,creatine_monohydrate,Kreatín Monohydrát,,EUR,500.0,11.39,22.78,0.5695,,,,,,in_stock,https://aktin.sk/vilgain-kreatin/mango-a-pomaranc-500-g-45659
+aktin,creatine_monohydrate,Kreatín Creapure® Monohydrát,,EUR,300.0,24.99,83.3,2.0825,,,,,,in_stock,https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-300-g-35577
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,26.99,26.99,0.67475,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,64.99,25.996,0.6499,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Chocolate 5kg,Bulk,GBP,5000.0,124.99,24.998,0.62495,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
+bulk,whey_protein,Pure Whey Protein™ - Unflavoured 500g,Bulk,GBP,500.0,16.99,33.98,0.8495,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000
 bulk,whey_protein,Pure Whey Isolate™ - Chocolate Peanut 2.5kg,Bulk,GBP,2500.0,99.99,39.996,0.9999,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
 bulk,whey_protein,Pure Whey Isolate™ - Chocolate Peanut 5kg,Bulk,GBP,5000.0,189.99,37.998,0.94995,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
 bulk,whey_protein,Pure Whey Isolate™ - Chocolate Malted Honeycomb 1kg,Bulk,GBP,1000.0,48.99,48.99,1.22475,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
@@ -10,8 +47,8 @@ bulk,whey_protein,Pure Whey Isolate™ Unflavoured 2kg,Bulk,GBP,2000.0,87.99,43.
 bulk,whey_protein,Pure Whey Isolate™ Chocolate Caramel 450g,Bulk,GBP,450.0,22.99,51.08888888888889,1.2772222222222223,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
 bulk,whey_protein,Pure Whey Isolate™ Banana 4kg,Bulk,GBP,4000.0,164.99,41.2475,1.0311875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
 bulk,whey_protein,Pure Whey Isolate™ Unflavoured 900g,Bulk,GBP,900.0,43.99,48.87777777777778,1.2219444444444445,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-isolate-90/bpb-wpi9-0000
-bulk,whey_protein,Pure Whey Protein+ - Salted Caramel 2kg,Bulk,GBP,2000.0,51.99,25.995,0.649875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
-bulk,whey_protein,Pure Whey Protein+ - Vanilla 900g,Bulk,GBP,900.0,24.99,27.766666666666666,0.6941666666666667,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
+bulk,whey_protein,Pure Whey Protein+ - Salted Caramel 2kg,Bulk,GBP,2000.0,49.99,24.995,0.624875,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
+bulk,whey_protein,Pure Whey Protein+ - Vanilla 900g,Bulk,GBP,900.0,23.99,26.655555555555555,0.6663888888888889,,,,,,in_stock,https://www.bulk.com/uk/products/pure-whey-protein-plus/bpb-pwpp
 bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 500g,Bulk,GBP,500.0,18.99,37.98,0.9495,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
 bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 1kg,Bulk,GBP,1000.0,36.99,36.99,0.92475,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
 bulk,whey_protein,Natural Pure Whey Protein™ - Chocolate 2.5kg,Bulk,GBP,2500.0,87.99,35.196,0.8799,,,,,,in_stock,https://www.bulk.com/uk/products/natural-pure-whey-protein/bpb-npwp-0000
@@ -50,65 +87,64 @@ bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 500
 bulk,creatine_monohydrate,Creatine Monohydrate (Creapure®️) - Unflavoured 1kg,Bulk,GBP,1000.0,79.99,79.99,1.99975,,,,,,out_of_stock,https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000
 gymbeam,whey_protein,True Whey - GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,in_stock,https://gymbeam.sk/true-whey-gymbeam.html
 gymbeam,whey_protein,True Whey - GymBeam 2500 g - bez príchute - 01,GymBeam,EUR,2500.0,84.95,33.98,0.8495,,,,,,in_stock,https://gymbeam.sk/true-whey-gymbeam.html
-gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 2000 g - banán,GymBeam,EUR,2000.0,96.95,48.475,1.211875,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
-gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 900 g - banán,GymBeam,EUR,900.0,47.95,53.27777777777778,1.3319444444444444,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
-gymbeam,whey_protein,Clear Whey Protein - BeastPink 500 g - citrón-limetka,GymBeam,EUR,500.0,33.95,67.9,1.6975,,,,,,in_stock,https://gymbeam.sk/cisty-srvatkovy-protein-beastpink-gymbeam.html
+gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 900 g - čokoláda,GymBeam,EUR,900.0,47.95,53.27777777777778,1.3319444444444444,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
+gymbeam,whey_protein,Proteín ASAP True Whey - GymBeam 2000 g - čokoláda,GymBeam,EUR,2000.0,96.95,48.475,1.211875,,,,,,in_stock,https://gymbeam.sk/asap-true-whey-gymbeam.html
+gymbeam,whey_protein,Clear Whey Protein - BeastPink 500 g - mango-marakuja,GymBeam,EUR,500.0,33.95,67.9,1.6975,,,,,,in_stock,https://gymbeam.sk/cisty-srvatkovy-protein-beastpink-gymbeam.html
 gymbeam,whey_protein,Proteín Pure IsoWhey - GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,45.95,45.95,1.14875,,,,,,in_stock,https://gymbeam.sk/protein-pure-isowhey-gymbeam.html
 gymbeam,whey_protein,Proteín Pure IsoWhey - GymBeam 2500 g - bez príchute - 01,GymBeam,EUR,2500.0,109.95,43.98,1.0995,,,,,,in_stock,https://gymbeam.sk/protein-pure-isowhey-gymbeam.html
-gymbeam,whey_protein,100% Whey - Nutrend 2250 g - banán,GymBeam,EUR,2250.0,67.95,30.2,0.755,,,,,,out_of_stock,https://gymbeam.sk/614-protein-whey-core-100-nutrend.html
-gymbeam,whey_protein,Whey Protein 100 - Bodylab 1000 g - banán,GymBeam,EUR,1000.0,19.5,19.5,0.4875,,,,,,out_of_stock,https://gymbeam.sk/protein-whey100-bodylab.html
+gymbeam,whey_protein,100% Whey - Nutrend 2250 g - sušienka,GymBeam,EUR,2250.0,67.95,30.2,0.755,,,,,,out_of_stock,https://gymbeam.sk/614-protein-whey-core-100-nutrend.html
+gymbeam,whey_protein,Whey Protein 100 - Bodylab 1000 g - prírodná chuť,GymBeam,EUR,1000.0,19.5,19.5,0.4875,,,,,,out_of_stock,https://gymbeam.sk/protein-whey100-bodylab.html
 gymbeam,whey_protein,100% Whey - Stacker2 2000 g - čokoláda,GymBeam,EUR,2000.0,61.95,30.975,0.774375,,,,,,out_of_stock,https://gymbeam.sk/protein-100-whey-stacker2.html
-gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 1850 g - čokoláda,GymBeam,EUR,1850.0,34.95,18.89189189189189,0.4722972972972973,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
-gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 920 g - čokoláda,GymBeam,EUR,920.0,23.95,26.032608695652176,0.6508152173913043,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
-gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 2350 g - čokoláda,GymBeam,EUR,2350.0,45.95,19.5531914893617,0.4888297872340426,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
+gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 920 g - biela čokoláda,GymBeam,EUR,920.0,23.95,26.032608695652176,0.6508152173913043,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
+gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 2350 g - vanilka,GymBeam,EUR,2350.0,45.95,19.5531914893617,0.4888297872340426,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
 gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 5000 g - čokoláda,GymBeam,EUR,5000.0,95.95,19.19,0.47975,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
+gymbeam,whey_protein,Proteín 100% Whey - Scitec Nutrition 1850 g - čokoláda,GymBeam,EUR,1850.0,34.95,18.89189189189189,0.4722972972972973,,,,,,out_of_stock,https://gymbeam.sk/510-protein-100-whey-2350-g-scitec-nutrition-3.html
 gymbeam,whey_protein,100% Whey Premium - ActivLab 2000 g - čokoláda,GymBeam,EUR,2000.0,50.95,25.475,0.636875,,,,,,in_stock,https://gymbeam.sk/100-whey-premium-activlab.html
 gymbeam,whey_protein,Proteín Combat 100% Whey - MusclePharm 2270 g - čokoláda,GymBeam,EUR,2270.0,43.95,19.36123348017621,0.4840308370044053,,,,,,out_of_stock,https://gymbeam.sk/protein-combat-100-whey-musclepharm.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 1110 g - chocolate,GymBeam,EUR,1110.0,23.95,21.576576576576578,0.5394144144144144,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 2820 g - čokoláda,GymBeam,EUR,2820.0,45.95,16.29432624113475,0.4073581560283688,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition - 500 g - chocolate,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 750 g - banán,GymBeam,EUR,750.0,20.95,27.933333333333334,0.6983333333333334,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Proteín Combat 100% Whey - MusclePharm 1810 g - mliečna čokoláda,GymBeam,EUR,1810.0,39.95,22.07182320441989,0.5517955801104972,,,,,,out_of_stock,https://gymbeam.sk/protein-combat-100-whey-musclepharm.html
 gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 920 g - čokoláda,GymBeam,EUR,920.0,21.95,23.858695652173914,0.5964673913043478,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 2350 g - banán,GymBeam,EUR,2350.0,45.95,19.5531914893617,0.4888297872340426,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
-gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 5000 g - banán,GymBeam,EUR,5000.0,99.95,19.99,0.49975,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 2350 g - kiwi banán,GymBeam,EUR,2350.0,45.95,19.5531914893617,0.4888297872340426,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 5000 g - čokoláda,GymBeam,EUR,5000.0,99.95,19.99,0.49975,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 2820 g - čokoláda kokos,GymBeam,EUR,2820.0,45.95,16.29432624113475,0.4073581560283688,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 1110 g - chocolate coconut,GymBeam,EUR,1110.0,23.95,21.576576576576578,0.5394144144144144,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition - 500 g - chocolate,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Professional - Scitec Nutrition 750 g - cappucino,GymBeam,EUR,750.0,20.95,27.933333333333334,0.6983333333333334,,,,,,out_of_stock,https://gymbeam.sk/10-protein-100-whey-professional-2350-g-scitec-nutrition.html
+gymbeam,whey_protein,Protein 100% Whey Isolate - Scitec Nutrition 700 g - banán,GymBeam,EUR,700.0,25.95,37.07142857142857,0.9267857142857143,,,,,,out_of_stock,https://gymbeam.sk/12-protein-100-whey-isolate-20-kg.html
 gymbeam,whey_protein,Protein 100% Whey Isolate - Scitec Nutrition 2000 g - banán,GymBeam,EUR,2000.0,59.95,29.975,0.749375,,,,,,out_of_stock,https://gymbeam.sk/12-protein-100-whey-isolate-20-kg.html
 gymbeam,whey_protein,Protein 100% Whey Isolate - Scitec Nutrition 4000 g - čokoláda,GymBeam,EUR,4000.0,87.95,21.9875,0.5496875,,,,,,out_of_stock,https://gymbeam.sk/12-protein-100-whey-isolate-20-kg.html
-gymbeam,whey_protein,Protein 100% Whey Isolate - Scitec Nutrition 700 g - banán,GymBeam,EUR,700.0,25.95,37.07142857142857,0.9267857142857143,,,,,,out_of_stock,https://gymbeam.sk/12-protein-100-whey-isolate-20-kg.html
-gymbeam,whey_protein,Proteín 100% Whey Protein - MuscleTech  2270 g - trojitá čokoláda,GymBeam,EUR,2270.0,33.95,14.955947136563877,0.3738986784140969,,,,,,out_of_stock,https://gymbeam.sk/100-premium-whey-protein-plus-muscletech.html
+gymbeam,whey_protein,Proteín 100% Whey Protein - MuscleTech  2270 g - vanilka,GymBeam,EUR,2270.0,33.95,14.955947136563877,0.3738986784140969,,,,,,out_of_stock,https://gymbeam.sk/100-premium-whey-protein-plus-muscletech.html
 gymbeam,whey_protein,Animal 100 % Whey Proteín - Universal Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,out_of_stock,https://gymbeam.sk/animal-100-whey-protein-universal-nutrition.html
 gymbeam,whey_protein,Proteín 100% Premium Whey Protein Plus - MuscleTech 2720 g - deluxe čokoláda,GymBeam,EUR,2720.0,39.95,14.6875,0.3671875,,,,,,out_of_stock,https://gymbeam.sk/100-premium-whey-protein-plus-muscletech-2.html
-gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 450 g - banánový krém,GymBeam,EUR,450.0,26.95,59.888888888888886,1.4972222222222222,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 450 g - vanilková zmrzlina,GymBeam,EUR,450.0,26.95,59.888888888888886,1.4972222222222222,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
 gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 4540 g - dvojitá bohatá čokoláda,GymBeam,EUR,4540.0,199.95,44.041850220264315,1.1010462555066078,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 768 g - banánový krém,GymBeam,EUR,768.0,44.95,58.528645833333336,1.4632161458333333,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
+gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 768 g - čokoláda arašidové maslo,GymBeam,EUR,768.0,44.95,58.528645833333336,1.4632161458333333,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
 gymbeam,whey_protein,Proteín 100% Whey Gold Standard - Optimum Nutrition 2010 g - banánový krém,GymBeam,EUR,2010.0,96.95,48.233830845771145,1.2058457711442787,,,,,,in_stock,https://gymbeam.sk/100-whey-gold-standard-optimum-nutrition.html
-gymbeam,whey_protein,Proteín 100% Premium Whey Isolate Plus 1360 g - MuscleTech deluxe čokoláda,GymBeam,EUR,1360.0,29.95,22.022058823529413,0.5505514705882353,,,,,,out_of_stock,https://gymbeam.sk/protein-100-premium-whey-isolate-plus-1380-g-muscletech.html
+gymbeam,whey_protein,Proteín 100% Premium Whey Isolate Plus 1360 g - MuscleTech sladká čokoláda,GymBeam,EUR,1360.0,29.95,22.022058823529413,0.5505514705882353,,,,,,out_of_stock,https://gymbeam.sk/protein-100-premium-whey-isolate-plus-1380-g-muscletech.html
 gymbeam,whey_protein,BIO Whey Protein - GymBeam 900 g - kakao,GymBeam,EUR,900.0,47.95,53.27777777777778,1.3319444444444444,,,,,,in_stock,https://gymbeam.sk/bio-whey-protein-gymbeam.html
 gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 1000 g - bez príchute - 01,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
 gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 2000 g - bez príchute - 01,GymBeam,EUR,2000.0,71.95,35.975,0.899375,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
-gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 500 g - banán - 01,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/just-whey-gymbeam.html
+gymbeam,whey_protein,Just Whey Grass-Fed Protein – GymBeam 500 g - čučoriedkový jogurt - 01,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,out_of_stock,https://gymbeam.sk/just-whey-gymbeam.html
 gymbeam,whey_protein,Yum Yum Whey - BeastPink 1000 g - čokoláda lieskový oriešok,GymBeam,EUR,1000.0,38.95,38.95,0.97375,,,,,,out_of_stock,https://gymbeam.sk/protein-yum-yum-whey-beast-pink.html
-gymbeam,whey_protein,Yum Yum Whey - BeastPink 500 g - čokoláda lieskový oriešok,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/protein-yum-yum-whey-beast-pink.html
-gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
-gymbeam,whey_protein,Whey Proteín - GYMQUEEN banán - 500 g,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-gymqueen.html
-gymbeam,whey_protein,Protein Anabolic Whey - GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
-gymbeam,whey_protein,Protein Anabolic Whey - GymBeam 2500 g - čokoláda,GymBeam,EUR,2500.0,71.95,28.78,0.7195,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
-gymbeam,whey_protein,Whey Protein 80 - The Protein Works 1000 g - karamelové macchiato,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
-gymbeam,whey_protein,Whey Protein 80 - The Protein Works 2000 g - karamelové macchiato,GymBeam,EUR,2000.0,62.95,31.475,0.786875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
-gymbeam,whey_protein,Whey Protein 80 - The Protein Works 500 g - karamelové macchiato,GymBeam,EUR,500.0,19.5,39.0,0.975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
-gymbeam,whey_protein,Whey Protein - Bodylab24 1000 g - banán,GymBeam,EUR,1000.0,39.95,39.95,0.99875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-bodylab24.html
+gymbeam,whey_protein,Yum Yum Whey - BeastPink 500 g - jahoda,GymBeam,EUR,500.0,24.95,49.9,1.2475,,,,,,in_stock,https://gymbeam.sk/protein-yum-yum-whey-beast-pink.html
+gymbeam,whey_protein,Whey Proteín - Mammut Nutrition 1000 g - Strawberry Cheesecake Chocolate Chip,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-mammut-nutrition.html
+gymbeam,whey_protein,Whey Protein - GYMQUEEN chocolate - 500 g,GymBeam,EUR,500.0,21.95,43.9,1.0975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-gymqueen.html
+gymbeam,whey_protein,Whey Protein 80 - The Protein Works 500 g - banánový koktejl,GymBeam,EUR,500.0,19.5,39.0,0.975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
+gymbeam,whey_protein,Whey Protein 80 - The Protein Works 1000 g - banánový koktejl,GymBeam,EUR,1000.0,34.95,34.95,0.87375,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
+gymbeam,whey_protein,Whey Protein 80 - The Protein Works 2000 g - banánový koktejl,GymBeam,EUR,2000.0,62.95,31.475,0.786875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-the-protein-works.html
 gymbeam,whey_protein,Whey Protein - Bodylab24 2000 g - banán,GymBeam,EUR,2000.0,64.95,32.475,0.811875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-bodylab24.html
+gymbeam,whey_protein,Whey Protein - Bodylab24 1000 g - banán,GymBeam,EUR,1000.0,39.95,39.95,0.99875,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-bodylab24.html
 gymbeam,whey_protein,BIO Whey Protein Lactose Free - Purasana čokoláda - 400 g,GymBeam,EUR,400.0,42.95,107.375,2.684375,,,,,,out_of_stock,https://gymbeam.sk/bio-whey-protein-lactose-free-purasana.html
-gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works francúzsky vanilkový krém - 1200 g,GymBeam,EUR,1200.0,34.95,29.125,0.728125,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
-gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works francúzsky vanilkový krém - 2400 g,GymBeam,EUR,2400.0,62.95,26.229166666666668,0.6557291666666667,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
-gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works jahoda & krém - 600 g,GymBeam,EUR,600.0,19.5,32.5,0.8125,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
-gymbeam,whey_protein,Whey Protein 80 - GoNutrition caffe latte - 1000 g,GymBeam,EUR,1000.0,16.5,16.5,0.4125,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
-gymbeam,whey_protein,Whey Protein 80 - GoNutrition čokoláda banán - 2500 g,GymBeam,EUR,2500.0,31.95,12.78,0.3195,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
+gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works banánový milkshake - 1200 g,GymBeam,EUR,1200.0,34.95,29.125,0.728125,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
+gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works banánový milkshake - 2400 g,GymBeam,EUR,2400.0,62.95,26.229166666666668,0.6557291666666667,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
+gymbeam,whey_protein,Whey Protein 360 ® - The Protein Works chocolate silk - 600 g,GymBeam,EUR,600.0,19.5,32.5,0.8125,,,,,,in_stock,https://gymbeam.sk/whey-protein-360-r-the-protein-works.html
 gymbeam,whey_protein,Whey Protein 80 - GoNutrition trojitá čokoláda - 500 g,GymBeam,EUR,500.0,11.95,23.9,0.5975,,,,,,out_of_stock,https://gymbeam.sk/whey-protein-80-gonutrition.html
-gymbeam,whey_protein,Proteín Clear Whey Hydrate - GymBeam 500 g - zelené jablko,GymBeam,EUR,500.0,32.95,65.9,1.6475,,,,,,in_stock,https://gymbeam.sk/clear-whey-hydrate-gymbeam.html
+gymbeam,whey_protein,Protein Anabolic Whey - GymBeam 2500 g - čokoláda,GymBeam,EUR,2500.0,71.95,28.78,0.7195,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
+gymbeam,whey_protein,Protein Anabolic Whey - GymBeam 1000 g - čokoláda,GymBeam,EUR,1000.0,31.95,31.95,0.79875,,,,,,in_stock,https://gymbeam.sk/protein-anabolic-whey-gymbeam.html
 gymbeam,whey_protein,ReFuel Whey Protein - GymBeam 1450 g - čokoláda,GymBeam,EUR,1450.0,40.95,28.24137931034483,0.7060344827586207,,,,,,in_stock,https://gymbeam.sk/refuel-whey-protein-gymbeam.html
+gymbeam,whey_protein,Proteín Clear Whey Hydrate - GymBeam 500 g - zelené jablko,GymBeam,EUR,500.0,32.95,65.9,1.6475,,,,,,in_stock,https://gymbeam.sk/clear-whey-hydrate-gymbeam.html
+gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 1000 g,GymBeam,EUR,1000.0,33.95,33.95,0.84875,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 300 g,GymBeam,EUR,300.0,12.5,41.666666666666664,1.0416666666666667,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
-gymbeam,creatine_monohydrate,Creatine Monohydrate - Amix 500 g,GymBeam,EUR,500.0,18.5,37.0,0.925,,,,,,in_stock,https://gymbeam.sk/creatine-monohydrate-amix.html
 gymbeam,creatine_monohydrate,Creatine Monohydrate - GoNutrition bez príchute - 500 g,GymBeam,EUR,500.0,12.95,25.9,0.6475,,,,,,out_of_stock,https://gymbeam.sk/creatine-monohydrate-gonutrition.html
 gymbeam,creatine_monohydrate,Creatine monohydrate+ - GymBeam 400 g - zelené jablko,GymBeam,EUR,400.0,15.95,39.875,0.996875,,,,,,out_of_stock,https://gymbeam.sk/creatine-performance-gymbeam.html
 gymbeam,creatine_monohydrate,Kreatín monohydrát - Redcon1 300 g,GymBeam,EUR,300.0,13.95,46.5,1.1625,,,,,,out_of_stock,https://gymbeam.sk/kreatin-monohydrat-redcon1.html

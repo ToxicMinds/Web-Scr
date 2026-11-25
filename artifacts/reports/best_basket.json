@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T12:51:18.003011+00:00",
+  "generated_at": "2026-11-25T11:38:11.315688+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "1188c70e-c77b-4166-a65f-7443e11c16fd",
+    "id": "3b7e14ee-55af-44c1-93f6-1424c98e9467",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,44 @@
         "lines": [
           {
             "offer": {
-              "id": "f838f81f-f3c7-4f61-a0ca-a8d74e9c920a",
+              "id": "0353abf3-f79e-467f-a04c-48effb6f0b90",
+              "retailer_slug": "bulk",
+              "category": "whey_protein",
+              "title": "Pure Whey Protein\u2122 - Chocolate 1kg",
+              "brand": "Bulk",
+              "url": "https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000",
+              "pack_content_g": "1000",
+              "price": {
+                "amount": "31.75",
+                "currency": "EUR"
+              },
+              "quantity_breaks": [],
+              "availability": "in_stock",
+              "protein_pct": null,
+              "serving_size_g": null,
+              "protein_per_serving_g": null,
+              "flavours": [
+                "Chocolate"
+              ],
+              "creatine_form": null,
+              "attributes": {},
+              "ships_to": null,
+              "scraped_at": "2026-11-25T11:37:59.649907Z"
+            },
+            "quantity": 1,
+            "unit_price": {
+              "amount": "31.75",
+              "currency": "EUR"
+            },
+            "line_total": {
+              "amount": "31.75",
+              "currency": "EUR"
+            },
+            "content_g": "1000"
+          },
+          {
+            "offer": {
+              "id": "abf32074-663f-4b05-9cac-cc667e55e459",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Daily Whey Protein - Banana 4kg",
@@ -34,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-24T12:51:12.987010Z"
+              "scraped_at": "2026-11-25T11:38:04.452572Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -49,44 +86,7 @@
           },
           {
             "offer": {
-              "id": "bdf451e9-76cb-4d19-8276-f02db755194b",
-              "retailer_slug": "bulk",
-              "category": "whey_protein",
-              "title": "Whey Protein Coffee - Iced Latte 1kg",
-              "brand": "Bulk",
-              "url": "https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico",
-              "pack_content_g": "1000",
-              "price": {
-                "amount": "32.93",
-                "currency": "EUR"
-              },
-              "quantity_breaks": [],
-              "availability": "in_stock",
-              "protein_pct": null,
-              "serving_size_g": null,
-              "protein_per_serving_g": null,
-              "flavours": [
-                "Iced Latte"
-              ],
-              "creatine_form": null,
-              "attributes": {},
-              "ships_to": null,
-              "scraped_at": "2026-11-24T12:51:12.988058Z"
-            },
-            "quantity": 1,
-            "unit_price": {
-              "amount": "32.93",
-              "currency": "EUR"
-            },
-            "line_total": {
-              "amount": "32.93",
-              "currency": "EUR"
-            },
-            "content_g": "1000"
-          },
-          {
-            "offer": {
-              "id": "068d6f7b-1ad4-4b41-9920-f95e5502a605",
+              "id": "e3553eb9-88c3-4195-8766-ca8b72190b25",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -108,7 +108,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-24T12:51:05.945387Z"
+              "scraped_at": "2026-11-25T11:37:58.647066Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -123,7 +123,7 @@
           }
         ],
         "product_subtotal": {
-          "amount": "165.84",
+          "amount": "164.66",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -137,13 +137,13 @@
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "165.84",
+          "amount": "164.66",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "165.84",
+      "amount": "164.66",
       "currency": "EUR"
     },
     "fulfilled_g": {
@@ -151,14 +151,14 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-11-24T12:51:18.000420Z"
+    "created_at": "2026-11-25T11:38:11.312877Z"
   },
   "retailer_rankings": [
     {
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 165.84,
+      "total_eur": 164.66,
       "shipping_confidence": "determined"
     },
     {
@@ -171,9 +171,9 @@
     {
       "retailer": "Aktin",
       "slug": "aktin",
-      "feasible": false,
-      "total_eur": null,
-      "shipping_confidence": null
+      "feasible": true,
+      "total_eur": 205.51,
+      "shipping_confidence": "determined"
     },
     {
       "retailer": "The Protein Works",

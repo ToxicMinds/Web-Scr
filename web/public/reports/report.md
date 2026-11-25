@@ -1,17 +1,17 @@
 # Supplement Optimizer Report
 
-_Generated: 2026-11-24 12:51:18 UTC_
+_Generated: 2026-11-25 11:38:11 UTC_
 Destination: **SK** · Base currency: **EUR**
 
 ## Best Basket
 
-- **Total: 165.84 EUR**  
+- **Total: 164.66 EUR**  
 - Strategy: single_retailer  
 - Shipping confidence: determined  
 
-### bulk — 165.84 EUR (goods 165.84 EUR, shipping 0.00 EUR)
+### bulk — 164.66 EUR (goods 164.66 EUR, shipping 0.00 EUR)
+- 1 × Pure Whey Protein™ - Chocolate 1kg @ 31.75 EUR = 31.75 EUR ([link](https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000))
 - 1 × Daily Whey Protein - Banana 4kg @ 87.05 EUR = 87.05 EUR ([link](https://www.bulk.com/uk/products/daily-whey/bpb-dwhe))
-- 1 × Whey Protein Coffee - Iced Latte 1kg @ 32.93 EUR = 32.93 EUR ([link](https://www.bulk.com/uk/products/whey-protein-coffee/bpb-pico))
 - 2 × Creatine Monohydrate Powder - Unflavoured 1kg @ 22.93 EUR = 45.86 EUR ([link](https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000))
 
 _Fulfilled: whey_protein: 5000 g, creatine_monohydrate: 2000 g_
@@ -20,9 +20,9 @@ _Fulfilled: whey_protein: 5000 g, creatine_monohydrate: 2000 g_
 
 | retailer | slug | feasible | total_eur | shipping_confidence |
 | --- | --- | --- | --- | --- |
-| Bulk | bulk | True | 165.84 | determined |
+| Bulk | bulk | True | 164.66 | determined |
 | GymBeam | gymbeam | True | 191.23 | determined |
-| Aktin | aktin | False |  |  |
+| Aktin | aktin | True | 205.51 | determined |
 | The Protein Works | protein_works | False |  |  |
 
 ## Cheapest Protein (by €/100 g protein)
@@ -35,15 +35,18 @@ _No data._
 | --- | --- | --- | --- | --- | --- |
 | bulk | Creatine Monohydrate Powder - Unflavoured 1kg | 19.49 | 1000 | 19.49 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | bulk | Creatine Monohydrate Powder - Unflavoured 500g | 9.99 | 500 | 19.98 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
+| aktin | Kreatín Monohydrát | 11.39 | 500 | 22.78 | https://aktin.sk/vilgain-kreatin/mango-a-pomaranc-500-g-45659 |
 | gymbeam | Creatine Monohydrate - GoNutrition bez príchute - 500 g | 12.95 | 500 | 25.9 | https://gymbeam.sk/creatine-monohydrate-gonutrition.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 250g | 7.49 | 250 | 29.96 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | gymbeam | Kreatín Pure monohydrát - Bodylab 400 g | 12.5 | 400 | 31.25 | https://gymbeam.sk/creatine-pure-monohydrate-bodylab.html |
 | gymbeam | Creatine Monohydrate - Amix 1000 g | 33.95 | 1000 | 33.95 | https://gymbeam.sk/creatine-monohydrate-amix.html |
+| aktin | Kreatín Monohydrát | 16.99 | 500 | 33.98 | https://aktin.sk/vilgain-kreatin |
 | gymbeam | Creatine Monohydrate - Amix 500 g | 18.5 | 500 | 37 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | gymbeam | Creatine monohydrate+ - GymBeam 400 g - zelené jablko | 15.95 | 400 | 39.875 | https://gymbeam.sk/creatine-performance-gymbeam.html |
 | bulk | Creatine Monohydrate Powder - Unflavoured 100g | 3.99 | 100 | 39.9 | https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000 |
 | gymbeam | Creatine Monohydrate - Amix 300 g | 12.5 | 300 | 41.667 | https://gymbeam.sk/creatine-monohydrate-amix.html |
 | gymbeam | Kreatín monohydrát - Redcon1 300 g | 13.95 | 300 | 46.5 | https://gymbeam.sk/kreatin-monohydrat-redcon1.html |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 1kg | 79.99 | 1000 | 79.99 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
+| aktin | Kreatín Creapure® Monohydrát | 24.99 | 300 | 83.3 | https://aktin.sk/vilgain-kreatin-creapure-r/bez-prichute-300-g-35577 |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 500g | 41.99 | 500 | 83.98 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
 | bulk | Creatine Monohydrate (Creapure®️) - Unflavoured 100g | 10.99 | 100 | 109.9 | https://www.bulk.com/uk/products/creapure-creatine-monohydrate/bpb-crea-0000 |
