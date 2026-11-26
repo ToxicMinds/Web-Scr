@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25T11:38:11.315688+00:00",
+  "generated_at": "2026-11-26T11:22:58.945740+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "3b7e14ee-55af-44c1-93f6-1424c98e9467",
+    "id": "f04b9530-826d-4456-8fc7-d376f4ea26c0",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "0353abf3-f79e-467f-a04c-48effb6f0b90",
+              "id": "25f5580a-1648-4ae2-8757-7ae43c8dab30",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Pure Whey Protein\u2122 - Chocolate 1kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-25T11:37:59.649907Z"
+              "scraped_at": "2026-11-26T11:22:49.290191Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "abf32074-663f-4b05-9cac-cc667e55e459",
+              "id": "9a134593-977c-4b4d-8e92-a10b85180a4f",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Daily Whey Protein - Banana 4kg",
@@ -71,7 +71,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-25T11:38:04.452572Z"
+              "scraped_at": "2026-11-26T11:22:53.469375Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -86,7 +86,7 @@
           },
           {
             "offer": {
-              "id": "e3553eb9-88c3-4195-8766-ca8b72190b25",
+              "id": "b5bbf2f9-ec55-4327-8ae5-9791909afb83",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -108,7 +108,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-25T11:37:58.647066Z"
+              "scraped_at": "2026-11-26T11:22:47.979803Z"
             },
             "quantity": 2,
             "unit_price": {
@@ -151,7 +151,7 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-11-25T11:38:11.312877Z"
+    "created_at": "2026-11-26T11:22:58.942991Z"
   },
   "retailer_rankings": [
     {
@@ -171,9 +171,9 @@
     {
       "retailer": "Aktin",
       "slug": "aktin",
-      "feasible": true,
-      "total_eur": 205.51,
-      "shipping_confidence": "determined"
+      "feasible": false,
+      "total_eur": null,
+      "shipping_confidence": null
     },
     {
       "retailer": "The Protein Works",
