@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T11:22:58.945740+00:00",
+  "generated_at": "2026-11-27T11:17:25.814849+00:00",
   "destination_country": "SK",
   "base_currency": "EUR",
   "best_basket": {
-    "id": "f04b9530-826d-4456-8fc7-d376f4ea26c0",
+    "id": "0addfedc-bb96-4189-a713-2675e738f77c",
     "strategy": "single_retailer",
     "currency": "EUR",
     "sub_baskets": [
@@ -12,7 +12,7 @@
         "lines": [
           {
             "offer": {
-              "id": "25f5580a-1648-4ae2-8757-7ae43c8dab30",
+              "id": "11bd1148-4ce8-4505-9181-60bbbf00fde2",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Pure Whey Protein\u2122 - Chocolate 1kg",
@@ -34,7 +34,7 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-26T11:22:49.290191Z"
+              "scraped_at": "2026-11-27T11:17:14.560078Z"
             },
             "quantity": 1,
             "unit_price": {
@@ -49,7 +49,7 @@
           },
           {
             "offer": {
-              "id": "9a134593-977c-4b4d-8e92-a10b85180a4f",
+              "id": "b137ba77-39c0-4b53-be0f-319fb0385cce",
               "retailer_slug": "bulk",
               "category": "whey_protein",
               "title": "Daily Whey Protein - Banana 4kg",
@@ -57,7 +57,7 @@
               "url": "https://www.bulk.com/uk/products/daily-whey/bpb-dwhe",
               "pack_content_g": "4000",
               "price": {
-                "amount": "87.05",
+                "amount": "79.99",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -71,22 +71,22 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-26T11:22:53.469375Z"
+              "scraped_at": "2026-11-27T11:17:19.155757Z"
             },
             "quantity": 1,
             "unit_price": {
-              "amount": "87.05",
+              "amount": "79.99",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "87.05",
+              "amount": "79.99",
               "currency": "EUR"
             },
             "content_g": "4000"
           },
           {
             "offer": {
-              "id": "b5bbf2f9-ec55-4327-8ae5-9791909afb83",
+              "id": "6e532b11-c8b2-42f3-9c5c-7ba91c6df3a4",
               "retailer_slug": "bulk",
               "category": "creatine_monohydrate",
               "title": "Creatine Monohydrate Powder - Unflavoured 1kg",
@@ -94,7 +94,7 @@
               "url": "https://www.bulk.com/uk/products/creatine-monohydrate/bpb-cmon-0000",
               "pack_content_g": "1000",
               "price": {
-                "amount": "22.93",
+                "amount": "20.46",
                 "currency": "EUR"
               },
               "quantity_breaks": [],
@@ -108,22 +108,22 @@
               "creatine_form": null,
               "attributes": {},
               "ships_to": null,
-              "scraped_at": "2026-11-26T11:22:47.979803Z"
+              "scraped_at": "2026-11-27T11:17:13.249194Z"
             },
             "quantity": 2,
             "unit_price": {
-              "amount": "22.93",
+              "amount": "20.46",
               "currency": "EUR"
             },
             "line_total": {
-              "amount": "45.86",
+              "amount": "40.92",
               "currency": "EUR"
             },
             "content_g": "2000"
           }
         ],
         "product_subtotal": {
-          "amount": "164.66",
+          "amount": "152.66",
           "currency": "EUR"
         },
         "coupon_code": null,
@@ -137,13 +137,13 @@
         },
         "shipping_confidence": "determined",
         "total": {
-          "amount": "164.66",
+          "amount": "152.66",
           "currency": "EUR"
         }
       }
     ],
     "total": {
-      "amount": "164.66",
+      "amount": "152.66",
       "currency": "EUR"
     },
     "fulfilled_g": {
@@ -151,14 +151,14 @@
       "creatine_monohydrate": "2000"
     },
     "shipping_confidence": "determined",
-    "created_at": "2026-11-26T11:22:58.942991Z"
+    "created_at": "2026-11-27T11:17:25.812631Z"
   },
   "retailer_rankings": [
     {
       "retailer": "Bulk",
       "slug": "bulk",
       "feasible": true,
-      "total_eur": 164.66,
+      "total_eur": 152.66,
       "shipping_confidence": "determined"
     },
     {
